@@ -1,0 +1,42 @@
+.HomePage {
+    margin-bottom: 20px;
+}
+
+section > h1, h2, h3 {
+    font-family: "Lucida Sans Unicode",;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    // margin:0 auto; 
+    text-align: center;
+    font-weight: bold;
+  }
+
+
+section {
+    // min-height: 200px;
+    padding: 10px 0;
+    background-color: white;
+}
+
+
+.jobalDesc, .appDesc {
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+
+p {
+    padding-top:10px; 
+    margin:0 auto; 
+    text-align: left;
+    font-size: 20px;
+    font-family: "Helvetica Neue","Verdana", "sans-serif", "New Century Schoolbook", "serif";
+    letter-spacing: 2px;
+    max-width: 700px;
+    /*margin-left: 50px;
+    margin-right: 50px;*/
+}
