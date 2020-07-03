@@ -6,20 +6,48 @@ section > h1, h2, h3 {
     font-family: "Lucida Sans Unicode",;
 }
 
-h2 {
-    padding-top: 50px;
-    padding-bottom: 20px;
+h1, h2, h3 {
+    // padding-top: 50px;
+    // padding-bottom: 20px;
     // margin:0 auto; 
     text-align: center;
     font-weight: bold;
-  }
+}
 
+.banner-intro {
+  margin: 24px;
+}
 
 section {
-    // min-height: 200px;
-    padding: 10px 0;
-    background-color: white;
+  padding: 10px 0;
+  background-color: white;
 }
+
+.i1 {
+    margin-top: 50px;
+}
+
+.i1, .i2 {
+    font-size: 35px;
+}
+
+.introH2 {
+  font-size: 26px;
+}
+
+.introH3 {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+hr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    // border-color: #0e2c3b;
+    border: 1px solid #0e2c3b;
+  }
+
 
 
 .jobalDesc, .appDesc {

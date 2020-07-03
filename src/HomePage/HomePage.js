@@ -8,6 +8,13 @@ export default class HomePage extends Component {
     return (
       <Container className='HomePage'>
         <Row>
+            <h1 class="banner-intro i1">Hello!</h1>
+            <h1 class="banner-intro i2">I'm Jonathan Baldwin,</h1>
+            <h2 class="banner-intro introH2">but I prefer to go by Jobal.</h2>
+            <h3 class="banner-intro introH3">(Pronounced: joe-ball)</h3>
+            <hr></hr>
+        </Row>
+        <Row>
           <section>
             <div class="aboutMe">
               <h2>About Me:</h2>
