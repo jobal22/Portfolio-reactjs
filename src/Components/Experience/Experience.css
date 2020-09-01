@@ -1,0 +1,36 @@
+.experience {
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+
+.developer > h2, .leadership > h2, .coordinating > h2, .crossCultural > h2, .pharm > h2 {
+  font-size: 25px;
+}
+
+.developer > p, .leadership > p, .coordinating > p, .crossCultural > p, .pharm > p {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-family: "Helvetica Neue","Verdana", "sans-serif", "New Century Schoolbook", "serif";
+  letter-spacing: 2px;
+  max-width: 700px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.devImgHolder, .leadImgHolder, .coordImgHolder, .crcuImgHolder, .pharmImgHolder{
+  background-color: #7C92A6;
+  height: 350px;
+  margin: 50px 0px 50px 0px;
+}
+
+.devImg {
+  width: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+

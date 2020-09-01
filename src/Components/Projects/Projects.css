@@ -1,0 +1,10 @@
+.Projects {
+  /* margin-bottom: 20px; */
+  /*allowed all content to align in center instead of off align*/
+  max-width: 700px;
+  display: relative;
+}
+
+.projectTitle {
+  margin-top: 60px;
+}
