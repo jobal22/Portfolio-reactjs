@@ -19,6 +19,7 @@ export default function HomePage() {
   return (
     <div className='HomePage'>
       <section className='HomePageMe'>
+        <div className='HPMe__background' />
         {/* <img className='me_background' src={blue} alt='blue sky' style={{transform: `translateY(-${offsetY * 0.2}px)` }} /> */}
         <div className='me_content'>
           <div className='profilePic'>
@@ -38,21 +39,23 @@ export default function HomePage() {
         </div>
       </section>
       <section className='HomePageProjects'>
-        <div className='HPProjects__background' />
+        {/* <div className='HPProjects__background' /> */}
+        <img className='HPProjects__background' src={sparkles} alt='sparkle photo' style={{transform: `translateY(-${offsetY * 0.2}px)` }} />
         {/* style={{transform: `translateY(-${offsetY * 0.2}px)` }} */}
         <div className='HPProjects__content'>
           <h2>Projects</h2>
+          <div className='mcbg' />
           <p className='jobalDesc'><b>Skills:</b> HTML5, CSS, JavaScript, React, JSX, Jest, Enzyme, Node, Express, PostgreSQL, C++</p>
-          <div className='buttonBG' />
-          <button><Link className='homePageLink' to={`/projects`}>View Projects</Link></button>
+          {/* <div className='buttonBG' /> */}
+          <button className='projectsButton'><Link className='homePageLink' to={`/projects`}>View Projects</Link></button>
         </div>
       </section>
       <section className='HomePageEducation'>
-        <img className='HPEducation__background' src={sparkles} alt='sparkle photo' style={{transform: `translateY(-${offsetY * 0.2}px)` }} />
+        {/* <img className='HPEducation__background' src={sparkles} alt='sparkle photo' style={{transform: `translateY(-${offsetY * 0.2}px)` }} /> */}
+        <div className='HPEducation__background' />
         {/* style={{transform: `translateY(-${offsetY * 0.2}px)` }} */}
         <div className='HPEducation__content'>
           <h2>Education</h2>
-          <div className='mcbg' />
           <div className='HPEC'>
             <p className='jobalDesc'><b>Bachelor’s Degree:</b></p>
             <p className='jobalDesc'>Subject: Toxicology<br></br>College: University of Louisiana in Monroe<br></br>Graduated: 2010</p>

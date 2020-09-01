@@ -61,6 +61,8 @@
   color: white;
   text-align: center;
   font-family: Neue Haas Unica, 'Times New Roman', Times, serif;
+  z-index: 3;
+
 }
 
 .logo {

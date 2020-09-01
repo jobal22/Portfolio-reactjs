@@ -8,8 +8,8 @@ const Menu = ({ open, ...props }) => {
 
   return (
     <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
-      <a href="/about" tabIndex={tabIndex}>
-        About
+      <a href="/experience" tabIndex={tabIndex}>
+        Experience
       </a>
       <a href="/projects" tabIndex={tabIndex}>
         Projects
