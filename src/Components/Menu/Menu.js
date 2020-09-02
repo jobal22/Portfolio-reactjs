@@ -17,9 +17,9 @@ const Menu = ({ open, ...props }) => {
       <a href="/contact" tabIndex={tabIndex}>
         Contact
       </a>
-      <a href="/help" tabIndex={tabIndex}>
+      {/* <a href="/help" tabIndex={tabIndex}>
         Help
-      </a>
+      </a> */}
     </StyledMenu>
   );
 };

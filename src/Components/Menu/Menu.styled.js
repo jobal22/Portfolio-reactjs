@@ -42,7 +42,7 @@ export const StyledMenu = styled.nav`
     text-align: right;
     padding: 10px;
     padding-right: 230px;
-    padding-top: 33px;
+    padding-top: 20px;
     position: absolute;
     top: 0;
     right: 60px;
@@ -55,15 +55,17 @@ export const StyledMenu = styled.nav`
       padding: 20px;
       font-weight: bold;
       letter-spacing: 0.5rem;
-      color: white;
+      color: black;
       text-decoration: none;
       transition: color 0.3s linear;
       :focus {
         outline: none !important;
       }
       &:hover {
-        border: 1px solid black;
+        border: none;
         border-radius: 10px;
+        box-shadow: 5px 5px 6px -1px rgba(0,0,0,.1), 0 2px 4px 5px rgba(0,0,0,.06);
+
       }
     }
   }
