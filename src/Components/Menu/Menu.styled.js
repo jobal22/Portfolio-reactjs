@@ -17,7 +17,7 @@ export const StyledMenu = styled.nav`
   border-radius: 10px;
   border: 1px solid black;
   transition: transform 0.3s ease-in-out;
-  width: 199.4px;
+  width: 250px;
 
   a {
     font-size: 2rem;

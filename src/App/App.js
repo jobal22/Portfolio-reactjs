@@ -5,7 +5,7 @@ import HM from '../Components/HM/HM.js';
 import HomePage from '../Components/HomePage/HomePage.js';
 import Experience from '../Components/Experience/Experience.js';
 import Projects from '../Components/Projects/Projects.js';
-import logo from '../Img/jobal-Logo-White.png';
+import logo from '../Img/jobalLogo1.png';
 import './App.css';
 import { Container, Row, Card } from 'react-bootstrap';
 
