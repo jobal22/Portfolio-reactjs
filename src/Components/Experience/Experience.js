@@ -4,9 +4,6 @@ import direction from '../../Img/directionlogo.png';
 import strategy from '../../Img/strategylogo1.png';
 import communication from '../../Img/communicationlogo1.png';
 import care from '../../Img/carelogo3.png';
-
-
-
 import './Experience.css';
 
 export default class Experience extends Component {
@@ -29,7 +26,7 @@ export default class Experience extends Component {
             <div className='leadImgHolder'>
               <img className='devImg' src={direction} alt='direction'/>
             </div>
-            <div className='devContent'>
+            <div className='devContent lead'>
               <div className='lcbg' />
               <h2>Leadership</h2>
               <p>Through evangelism training, I lead training sessions on clear communication with a purpose. In these training sessions, leaders are trained to train others. I manage and coordinate events that involve groups of people connecting with their communities.</p>
@@ -59,7 +56,7 @@ export default class Experience extends Component {
             <div className='pharmImgHolder'>
               <img className='devImg' src={care} alt='direction'/>
             </div>
-            <div className='devContent'>
+            <div className='devContent scien'>
              <div className='phcbg' />
               <h2>Client Relationships</h2>
               <p>In any business endeavor, the client and customer must feel heard. I worked as a Pharmacy Technician for nearly a decade. I was able to listen, serve, and speak with customers at their most vulnerable time, which is when they are sick. This skill continues to develop more and more through each season of life.</p>

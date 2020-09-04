@@ -51,6 +51,10 @@
 
 }
 
+.lead {
+  font-weight: 400;
+}
+
 .devImg {
   width: 300px;
   display: flex;
@@ -86,13 +90,19 @@
   } */
 
   .experience {
+    margin-top: 100px;
     margin-bottom: 0;
   }
   
-
-  .experience__content {
-    padding-top: 70px;
+  .experience h1 {
+    background-color: #eeede9;
+    padding: 70px 0 70px 0;
+    margin-bottom: 0;
   }
+
+  /* .experience__content {
+    padding-top: 70px;
+  } */
   
   .developer, .leadership, .coordinating, .crossCultural, .pharm {
     display: flex;
@@ -175,6 +185,15 @@
     padding: 90px 30px 0 30px;
     display: flex;
     justify-content: center;
+  }
+
+  .lead {
+    padding-top: 200px;
+  }
+
+  .scien {
+    padding-top: 130px;
+
   }
 
   .devContent p {

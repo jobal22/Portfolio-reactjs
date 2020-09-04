@@ -42,7 +42,7 @@ export const StyledMenu = styled.nav`
     text-align: right;
     padding: 10px;
     padding-right: 230px;
-    padding-top: 20px;
+    padding-top: 30px;
     position: absolute;
     top: 0;
     right: 60px;

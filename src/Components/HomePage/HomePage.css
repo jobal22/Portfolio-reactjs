@@ -218,8 +218,14 @@ hr {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .2em;
-  text-decoration: none; 
+  text-decoration: none;
 }
+
+.homePageLink:hover {
+  color: black;
+  text-decoration: none;
+}
+
 
 .personPhoto {
   width: 290px;
