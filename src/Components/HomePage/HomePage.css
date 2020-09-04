@@ -28,6 +28,7 @@ hr {
 }
 
 .HomePageProjects {
+  margin-top: 50px;
   margin-bottom: 60px;
 }
 
@@ -54,8 +55,12 @@ hr {
 }
 
 .HPProjects__content, .HPEducation__content, .HPContact__content  {
-  margin-top: 50px;
+  margin-top: 65px;
 }
+
+/* .HPProjects__content  > h2 {
+  margin-top: 80px;
+} */
 
 .HPProjects__content  > p, .HPEC > p {
   margin-top: 20px;

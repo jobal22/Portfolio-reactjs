@@ -53,14 +53,14 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <footer className="AU__footer">
+      {/* <footer className="AU__footer">
         <ol className='footIcon'>
           <li><div className='fIcon far fa-envelope'></div></li>
           <li><div className='fIcon fab fa-linkedin-in'></div></li>
           <li><div className='fIcon fab fa-instagram' ></div></li>
         </ol>
         <p>COPYRIGHT © 2020 SPARROWS COFFEE CO. | ALL RIGHTS RESERVED</p>
-      </footer>
+      </footer> */}
     </div>
   )
 }

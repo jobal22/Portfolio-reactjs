@@ -155,8 +155,8 @@
 .priceCollection {
   z-index: 1;
   position: absolute;
-  margin-top: 330px;
-  margin-bottom: 315px;
+  margin-top: 350px;
+  margin-bottom: 250px;
   left: 50%;
   transform: translate(-50%, 1%);
 }
@@ -177,7 +177,7 @@
 .AU__footer {
   position: relative;
   width: 100%;
-  bottom: -1380px;
+  bottom: -1395px;
   background-color: #a2c3d3;
   color: white;
   padding-top: 23px;
@@ -217,7 +217,7 @@
     width: 150px;
   }
   .priceCollection {
-    margin-bottom: 400px;
+    margin-bottom: 300px;
   }
 
 }
@@ -286,7 +286,7 @@
   }
 
   .priceLogo {
-    width: 140px;
+    width: 120px;
   }  
 
   .custom {
@@ -306,6 +306,6 @@
   .priceCollection {
     margin-top: 375px;
     max-width: 700px;
-    margin-bottom:390px;
+    margin-bottom:250px;
   }
 }
