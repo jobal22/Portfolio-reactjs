@@ -95,31 +95,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  /* .projects {
-    margin-top: 100px;
-    margin-bottom: 0;
-  } */
-
-  /* .LTBG {
-    display: initial;
-    background-color: #7C92A6;
-    background-position: center;
-    background-repeat: repeat-y;
-    background-size: cover;
-    position: absolute;
-      opacity: 0.25;
-    height: 1860px;
-    width: 100%;
-    position: absolute;
-
-  } */
-
-  /* .projh {
-    background-color: #eeede9;
-    padding: 70px 0 70px 0;
-    margin-bottom: 0;
-  } */
-
   .project__one, .project__two {
     display: flex;
     flex-direction: row;
@@ -136,8 +111,6 @@
   .projContent {
     width: 50%;
     padding: 20px 50px 0 50px;
-    /* display: flex;
-    justify-content: center; */
   }
 
 }

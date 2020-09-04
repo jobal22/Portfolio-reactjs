@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { Route, Link, Switch } from 'react-router-dom';
-import bulb1 from '../../Img/bulb1.png';
-import bulb2 from '../../Img/bulb2.png';
 import Sparrows from '../SparrowsCoffee/SCApp'
 import TLife from '../1T3Life/TLApp'
 
@@ -16,7 +13,6 @@ export default class Projects extends Component {
           <div className='LTBG' />
           <div className='project__one'>
             <div className='projContent'>
-              {/* <img className='bulb' src={bulb1} alt='one bulb'/> */}
               <div className='prObg' />
               <h2>Sparrows Coffee</h2>
               <p>This front-end app allows users to access information about Sparrows Coffee. Users are able to read information, get pricing, book events, and email the company for more information.</p>
@@ -28,8 +24,8 @@ export default class Projects extends Component {
             </div>
           </div>
           <div className='projectLinkContainer'>
-            <a className='projectLinks' href='https://sparrowscoffeega.com/' target='_blank'>Live Link</a>
-            <a className='projectLinks' href='https://github.com/jobal22/sparrows-coffee' target='_blank'>GitHub Link</a>
+            <a className='projectLinks' href='https://sparrowscoffeega.com/' target='_blank' rel='noopener noreferrer'>Live Link</a>
+            <a className='projectLinks' href='https://github.com/jobal22/sparrows-coffee' target='_blank' rel='noopener noreferrer'>GitHub Link</a>
           </div>
           <div className='project__two'>
             <div className='projContent'>
@@ -44,8 +40,8 @@ export default class Projects extends Component {
             </div>
           </div>
           <div className='projectLinkContainer'>
-            <a className='projectLinks' href='https://www.1t3life.org/' target='_blank'>Live Link</a>
-            <a className='projectLinks' href='https://github.com/jobal22/1T3LIFE-trial-app' target='_blank'>GitHub Link</a>
+            <a className='projectLinks' href='https://www.1t3life.org/' target='_blank' rel='noopener noreferrer'>Live Link</a>
+            <a className='projectLinks' href='https://github.com/jobal22/1T3LIFE-trial-app' target='_blank' rel='noopener noreferrer'>GitHub Link</a>
           </div>
         </div>
       </div>

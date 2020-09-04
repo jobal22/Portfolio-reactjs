@@ -1,41 +1,13 @@
 .HomePage {
-  /* margin-bottom: 20px; */
-  /*allowed all content to align in center instead of off align*/
   min-width: 300px;
-  /* max-width: 700px; */
   margin-left: auto;
   margin-right: auto;
-
 }
-
-/* section > h1, h2, h3 {
-    font-family: "Lucida Sans Unicode",;
-} */
 
 h1, h2, h3 {
   text-align: center;
   font-weight: bold;
   font-family: 'Martel', serif;
-}
-
-.banner-intro {
-  margin: 20px;
-}
-.i1 {
-  margin-top: 50px;
-}
-
-.i1, .i2 {
-  font-size: 35px;
-}
-
-.introH2 {
-  font-size: 26px;
-}
-
-.introH3 {
-  font-size: 16px;
-  letter-spacing: 2px;
 }
 
 hr {
@@ -53,7 +25,6 @@ hr {
   font-style: normal;
   background-color: transparent;
   margin-bottom: 30px;
-  /* color: #FFF; */
 }
 
 .HomePageProjects {
@@ -78,11 +49,8 @@ hr {
   flex-direction: column;
   align-items: center;
   z-index: 1;
-  /* margin-top: 20px;
-  margin-bottom: 20px; */
   margin-left: 20px;
   margin-right: 20px;
-  /* color: #FAFAFA; */
 }
 
 .HPProjects__content, .HPEducation__content, .HPContact__content  {
@@ -97,10 +65,6 @@ hr {
   color: #ced4d7
 }
 
-/* .josu {
-  background-color: #FAFAFA;
-} */
-
 .meButton, .projectsButton {
   border: none;
   cursor: pointer;
@@ -111,54 +75,12 @@ hr {
   margin-bottom: 20px;
 }
 
-/* .buttonBG {
-  background-color: #FAFAFA;
-  position: absolute;
-  z-index: -1;
-  width: 30px;
-  height: 30px;
-  margin-top: 285px;
-  padding: 35px 115px;
-  border-radius: 10px;
-  opacity: 0.2;
-
-} */
-
-/* .HPProjects__content > button {
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
-  border-radius: 10px;
-  padding: 21px 34px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-
-} */
-
 .meButtonTablet {
   display: none;
 }
 
-/* .suminfo {
-  display: flex;
-  flex-direction: column;
-  z-index: 40000;
-} */
-
-/* .me_background {
-  width: 100%;
-  left: 0;
-  right: 0;
-  height: 1500px;
-  min-height: 1500px;
-  object-fit: cover;
-  position: absolute;
-} */
-
 .mcbg {
   height: 380px;
-  /* min-height: 740px; */
-  /* max-height: 1500px; */
   width: 280px;
   background-color: #FAFAFA;
   opacity: 0.25;
@@ -169,8 +91,6 @@ hr {
 
 .HPMe__background {
   height: 1450px;
-  /* min-height: 450px; */
-  /* max-height: 1500px; */
   width: 100%;
   background-color: #FAFAFA;
   position: absolute;
@@ -179,10 +99,7 @@ hr {
 
 .HPEducation__background {
   height: 1000px;
-  /* min-height: 450px; */
-  /* max-height: 1500px; */
   width: 100%;
-  /* background-color: #566573; */
   background-color: #4D5A66;;
   position: absolute;
   z-index: 1;
@@ -193,11 +110,6 @@ hr {
   left: 0;
   right: 0;
   height: 1000px;
-  /* min-height: 1350px; */
-
-  /* background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover; */
   object-fit: cover;
   position: absolute;
   z-index: 0;
@@ -229,21 +141,17 @@ hr {
 
 .personPhoto {
   width: 290px;
-  /* max-width: 400px; */
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: 25px; */
   margin-bottom: 25px;
   padding-top: 50px;
-  /* border-radius: 20% 20% 9% 9%; */
 }
 
 .jobalDesc {
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
-  /* padding-bottom: 20px; */
   padding-top: 10px;
   font-family: "Helvetica Neue","Verdana", "sans-serif", "New Century Schoolbook", "serif";
   letter-spacing: 2px;
@@ -253,11 +161,6 @@ hr {
   margin-right: auto;
 
 }
-
-/* .HomePageContact {
-  width: 100%;
-} */
-
 
 ol {
   padding: 0;
@@ -280,8 +183,6 @@ ol {
   line-height: 28px;
   width: 26px;
   height: 26px;
-  /* border-radius: 100%;
-  border: 1px solid black; */
 }
 
 .HPCIcon:hover {
@@ -292,26 +193,13 @@ ol {
 
 }
 
-
-/* p {
-  padding-top:10px; 
-  margin:0 auto; 
-  text-align: left;
-  font-size: 20px;
-  font-family: "Helvetica Neue","Verdana", "sans-serif", "New Century Schoolbook", "serif";
-  letter-spacing: 2px;
-  max-width: 700px;
-} */
-
 @media screen and (min-width: 768px) {
-
   .me_content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 700px;
     padding-top: 20px;
-    /* padding-bottom: 50px; */
   }
 
   .meInfo {
@@ -335,7 +223,6 @@ ol {
     display: none;
   }
   
-
   .personPhoto {
     margin-top: 20px;
     width: 350px;
@@ -355,8 +242,6 @@ ol {
 
   .HPMe__background {
     height: 680px;
-    /* min-height: 450px; */
-    /* max-height: 1500px; */
     width: 100%;
     background-color: #FAFAFA;
     position: absolute;
@@ -370,8 +255,6 @@ ol {
 
   .HomePageEducation{
     margin-top: 80px;
-    /* margin-bottom: 0; */
-    /* padding-bottom: 0; */
   }
 
   .HPProjects__content, .HPEC {
@@ -380,8 +263,6 @@ ol {
 
   .mcbg {
     height: 330px;
-    /* min-height: 740px; */
-    /* max-height: 1500px; */
     width: 500px;
   }
   
@@ -398,22 +279,16 @@ ol {
     margin-bottom: 0;
   }
 
-  /* .HPContact__content {
-    margin-top: 40px;
-  } */
-
   .HPEducation__background {
     height: 900px;
   }
 
   .HomePageContact {
     margin-bottom: 30px;
-    /* height: 170px; */
   }
     
   .HPContact__content  {
     margin-top: 30px;
   }
-    
     
 }

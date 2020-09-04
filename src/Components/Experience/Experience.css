@@ -21,7 +21,6 @@
 }
 
 .devImgHolder, .leadImgHolder, .coordImgHolder, .crcuImgHolder, .pharmImgHolder{
-  /* background-color: #7C92A6; */
   height: 350px;
   margin: 50px 0px 50px 0px;
 }
@@ -64,31 +63,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* .experience {
-    display: grid;
-    grid-template-areas: "head head"
-                         "sidebar main";
-    grid-template-rows: 100px 1fr 30px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .experience > h1 {
-    grid-area: head;
-    position: relative;
-  }
-
-  .devImgHolder, .leadImgHolder, .coordImgHolder, .crcuImgHolder, .pharmImgHolder{
-    grid-area: sidebar;
-    position: relative;
-  }
-
-  .experience__content > div > h2, .experience__content > div > p {
-    grid-area: main;
-    position: absolute;
-    right: 0;
-    width: 50%;
-  } */
-
   .experience {
     margin-top: 100px;
     margin-bottom: 0;
@@ -100,23 +74,15 @@
     margin-bottom: 0;
   }
 
-  /* .experience__content {
-    padding-top: 70px;
-  } */
-  
   .developer, .leadership, .coordinating, .crossCultural, .pharm {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* width: 1000px; */
-    /* padding-top: 100px;
-    padding-bottom: 50px; */
     margin-left: auto;
     margin-right: auto;
   }
 
   .devImgHolder, .leadImgHolder, .coordImgHolder, .crcuImgHolder, .pharmImgHolder{
-    /* background-color: #7C92A6; */
     height: 800px;
     width: 50%;
     margin: 0;
@@ -198,25 +164,11 @@
 
   .devContent p {
     position: absolute;
-    /* font-size: 25px; */
     margin-top: 70px;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 
   }
-    
-  /* .developer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .devImgHolder {
-    position: absolute;
-    width: 50%;
-    height: 1000px;
-    left: 0;
-  } */
 
 }

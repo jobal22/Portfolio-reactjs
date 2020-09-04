@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import NavBar from './NavBar';
+import TLMenu from './TLMenu';
 
-describe('NavBar component', () => {
+describe('App component', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(
       <BrowserRouter>
-        <NavBar />
+        <TLMenu />
       </BrowserRouter>,
       div
     );
