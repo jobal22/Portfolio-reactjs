@@ -75,3 +75,31 @@
   display: inline-block; 
   text-align: center;
 }
+
+.logo2 {
+  display: none;
+}
+
+.logo:hover + .logo2 {
+  display: initial;
+  width: 150px;
+  position: absolute; 
+  left: 46%;
+  opacity: .4;
+  transform: translate(-50%);
+  padding-top: 15px;
+  display: inline-block; 
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .logo:hover + .logo2 {
+    left: 48%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .logo:hover + .logo2 {
+    left: 49%;
+  }
+}

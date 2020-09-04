@@ -160,6 +160,7 @@
   z-index: 1;
   position: absolute;
   margin-top: 330px;
+  margin-bottom: 330px;
   left: 50%;
   transform: translate(-50%, 1%);
 }
@@ -185,7 +186,7 @@
   color: white;
   padding-top: 23px;
   padding-bottom: 1px;
-  font-size: 8px;
+  font-size: 6px;
   font-family: 'Montserrat', sans-serif;
   z-index: 1;
 }
@@ -219,36 +220,43 @@
   .priceLogo {
     width: 150px;
   }
+  .priceCollection {
+    margin-bottom: 400px;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
   .aboutUs {
-    padding-top: 140px;
+    padding-top: 0;
   }  
 
   .bookEvent__background {
-    height: 900px;
+    height: 700px;
     max-height: 900px;
   }
   
+  .bookEvent__content {
+    margin-top: 170px;
+  }
   
   .bookEvent__content > h1, .teamMember > h1 {
-    font-size: 100px;
+    font-size: 70px;
   }
   
   .bookEvent__content > button, .teamMember > button {
     font-size: 25px;
-    padding: 20px 44px;
+    /* padding: 20px 44px; */
   }
 
   .passion {
-    padding: 100px;
+    padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .passion__background {
-    height: 600px;
+    height: 550px;
   }
   
   .passion > h3 {
@@ -263,12 +271,18 @@
   }
 
   .teamMember {
-    margin-top: 600px;
+    margin-top: 550px;
+  }
+
+  .teamMember__content {
+    margin-top: 190px;
+    margin-bottom: 10px;
   }
 
   .priceCollection {
     margin-top: 375px;
     max-width: 700px;
+    /* margin-bottom: 370px; */
   }
 
   .priceOptions {
@@ -276,6 +290,10 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  .priceLogo {
+    width: 140px;
+  }  
 
   .custom {
     margin-bottom: 40px;
@@ -289,4 +307,12 @@
     bottom: -650px;
   }
   
+}
+
+@media screen and (min-width: 800px) {
+  .priceCollection {
+    margin-top: 375px;
+    max-width: 700px;
+    margin-bottom: 400px;
+  }
 }

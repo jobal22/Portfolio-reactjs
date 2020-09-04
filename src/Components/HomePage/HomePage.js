@@ -28,10 +28,7 @@ export default function HomePage() {
           <div className='meInfo'>
             <h2>Summary</h2>
             <p className='jobalDesc suminfo'>
-            I am a Full Stack Developer with a PhD in Evangelism. My main goal is to love others 
-            through example-leadership and verbal encouragement. I love research within many fields 
-            of study as well as learning from others’ experiences and knowledge, which led to my 
-            love for coding.
+            I am a Full Stack Developer with a PhD in Evangelism. I am passionate about coding, especially in React.js. I find joy in transitioning concepts from abstract to concrete. I have over five years of leadership and coordinating experience in academic environments, and I have specialized in customer/client services for nearly two decades. Please view some of my projects, as well as, more details on my work experiences. 
             </p>
             <button className='meButtonTablet'><Link className='homePageLink' to={`/experience`}>More About Me</Link></button>
           </div>
@@ -71,9 +68,9 @@ export default function HomePage() {
         <div className='HPContact__content'>
           <h2>Reach Out</h2>
           <ol className='HPCLink'>
-            <li><a className='HPCIcon far fa-envelope' ></a></li>
-            <li><a className='HPCIcon fab fa-linkedin-in'></a></li>
-            <li><a className='HPCIcon fab fa-instagram' href='https://www.instagram.com/sparrowscoffeega/' target='_blank'></a></li>
+            <li><a className='HPCIcon far fa-envelope' href="mailto:jbaldwije@gmail.com" aria-hidden="true"></a></li>
+            <li><a className='HPCIcon fab fa-linkedin-in' href="https://www.linkedin.com/in/jobal/" target="_blank" aria-hidden="true"></a></li>
+            <li><a className='HPCIcon fab fa-github' href="https://github.com/jobal22" target='_blank' aria-hidden="true"></a></li>
           </ol>
         </div>
       </section>

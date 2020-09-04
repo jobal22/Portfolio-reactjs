@@ -5,9 +5,9 @@ export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: white;
+  background: #eeede9;
   transform: ${({ open }) => open ? 'translateX(-100)' : 'translateX(100%)'};
-  height: 380px;
+  height: 300px;
   text-align: center;
   padding: 10px;
   padding-top: 45px;
@@ -15,11 +15,13 @@ export const StyledMenu = styled.nav`
   top: 0;
   right: 0;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 0.5px solid #B0B8b4ff;
   transition: transform 0.3s ease-in-out;
   width: 250px;
 
   a {
+    font-family: Times, serif;
+    // margin-bottom: 40px;
     font-size: 2rem;
     text-transform: uppercase;
     padding: 15px;
@@ -32,7 +34,11 @@ export const StyledMenu = styled.nav`
       outline: none !important;
     }
     &:hover {
-      text-decoration: underline;
+      // text-decoration: underline;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 5px 5px 6px -1px rgba(0,0,0,.1), 0 2px 4px 5px rgba(0,0,0,.06);
+
     }
   }
 }
@@ -41,7 +47,7 @@ export const StyledMenu = styled.nav`
     justify-content: center;
     text-align: right;
     padding: 10px;
-    padding-right: 230px;
+    padding-right: 200px;
     padding-top: 30px;
     position: absolute;
     top: 0;
@@ -57,6 +63,7 @@ export const StyledMenu = styled.nav`
       letter-spacing: 0.5rem;
       color: black;
       text-decoration: none;
+      margin-right: 60px;
       transition: color 0.3s linear;
       :focus {
         outline: none !important;
@@ -65,7 +72,6 @@ export const StyledMenu = styled.nav`
         border: none;
         border-radius: 10px;
         box-shadow: 5px 5px 6px -1px rgba(0,0,0,.1), 0 2px 4px 5px rgba(0,0,0,.06);
-
       }
     }
   }

@@ -14,11 +14,8 @@ const Menu = ({ open, ...props }) => {
       <a href="/projects" tabIndex={tabIndex}>
         Projects
       </a>
-      <a href="/contact" tabIndex={tabIndex}>
+      {/* <a href="/contact" tabIndex={tabIndex}>
         Contact
-      </a>
-      {/* <a href="/help" tabIndex={tabIndex}>
-        Help
       </a> */}
     </StyledMenu>
   );

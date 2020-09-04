@@ -7,7 +7,7 @@
   padding-top: 20px;
 }
 
-.bulb {
+.bulb, .bulb2 {
   width: 30px;
   display: none;
 }
@@ -29,18 +29,115 @@
   margin-right: auto;
 }
 
-.project__one__example {
+.project__one__example, .project__two__example {
   height: 800px;
-  border: 1px solid black;
+  border: 1px solid #7C92A6;
   width: 80%;
-  margin-top: 50px;
+  max-width: 600px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+}
 
+.project__two__example {
+  height: 600px;
 }
 
 .project__sparrows {
   height: 600px;
+}
 
+.projectLinkContainer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+
+.projectLinks {
+  border: none;
+  cursor: pointer;
+  background-color: #ced4d7;
+  border-radius: 10px;
+  padding: 11px 14px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.projectLinks:hover {
+  text-decoration: none;
+}
+
+.LTBG {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .project__two__example {
+    height: 800px;
+  }
+
+  .bulb {
+    width: 30px;
+    display: initial;
+  }
   
+  .bulb2 {
+    width: 50px;
+    display: initial;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  /* .projects {
+    margin-top: 100px;
+    margin-bottom: 0;
+  } */
+
+  /* .LTBG {
+    display: initial;
+    background-color: #7C92A6;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    position: absolute;
+      opacity: 0.25;
+    height: 1860px;
+    width: 100%;
+    position: absolute;
+
+  } */
+
+  /* .projh {
+    background-color: #eeede9;
+    padding: 70px 0 70px 0;
+    margin-bottom: 0;
+  } */
+
+  .project__one, .project__two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project__one__example, .project__two__example {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .projContent {
+    width: 50%;
+    padding: 20px 50px 0 50px;
+    /* display: flex;
+    justify-content: center; */
+  }
+
 }

@@ -6,6 +6,7 @@ import HomePage from '../Components/HomePage/HomePage.js';
 import Experience from '../Components/Experience/Experience.js';
 import Projects from '../Components/Projects/Projects.js';
 import logo from '../Img/jobalLogo5.png';
+import shine from '../Img/bulbOn.png';
 import './App.css';
 import { Container, Row, Card } from 'react-bootstrap';
 
@@ -55,6 +56,7 @@ export default class App extends Component {
         <nav className='App__nav'>
           <Link className="navLink" to={"/"}>
             <img className='logo img' src={logo} alt='Logo'/>
+            <img className='logo2 img' src={shine} alt='Shine'/>
           </Link>
           <div className="topnav">
             <div className="hamburger">
