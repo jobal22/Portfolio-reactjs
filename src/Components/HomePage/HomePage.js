@@ -36,7 +36,7 @@ export default function HomePage() {
         <div className='HPProjects__content'>
           <h2>Projects</h2>
           <div className='mcbg' />
-          <p className='jobalDesc'><b>Skills:</b> HTML5, CSS, JavaScript, React, JSX, Jest, Enzyme, Node, Express, PostgreSQL, C++</p>
+          <p className='jobalDesc'><b>Skills:</b> HTML5, CSS, JavaScript, React, JSX, Jest, Enzyme, Node, Express, PostgreSQL, C++, Google Analytics, JAVA</p>
           <button className='projectsButton'><Link className='homePageLink' to={`/projects`}>View Projects</Link></button>
         </div>
       </section>

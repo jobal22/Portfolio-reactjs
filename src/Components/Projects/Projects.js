@@ -15,8 +15,8 @@ export default class Projects extends Component {
             <div className='projContent'>
               <div className='prObg' />
               <h2>Sparrows Coffee</h2>
-              <p>This front-end app allows users to access information about Sparrows Coffee. Users are able to read information, get pricing, book events, and email the company for more information.</p>
-              <p>Technologies Used: React.js, Enzyme, HTML, CSS</p>
+              <p>This app allows users to access information about Sparrows Coffee. Users are able to read information, get pricing, book events, and email the company for more information.</p>
+              <p>Technologies Used: React.js, Enzyme, HTML, CSS, Node, Express, JSON, PostgreSQL</p>
               <p>Demo:</p>
             </div>
             <div className='project__one__example'>
