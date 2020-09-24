@@ -5,6 +5,7 @@ import HM from '../Components/HM/HM.js';
 import HomePage from '../Components/HomePage/HomePage.js';
 import Experience from '../Components/Experience/Experience.js';
 import Projects from '../Components/Projects/Projects.js';
+import ScrollToTop from '../Components/ScrollToTop/ScrollToTop';
 import logo from '../Img/jobalLogo5.png';
 import shine from '../Img/bulbOn.png';
 import './App.css';
@@ -35,6 +36,7 @@ export default class App extends Component {
           </div>
         </nav>
         <main className='Main'>
+          <ScrollToTop />
           {this.renderMainRoutes()}
         </main>
         <div className='footer'>
