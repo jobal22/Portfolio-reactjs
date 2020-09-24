@@ -85,7 +85,7 @@ hr {
 }
 
 .mcbg {
-  height: 380px;
+  height: 450px;
   width: 280px;
   background-color: #FAFAFA;
   opacity: 0.25;
@@ -103,7 +103,7 @@ hr {
 }
 
 .HPEducation__background {
-  height: 1000px;
+  height: 1100px;
   width: 100%;
   background-color: #4D5A66;;
   position: absolute;
@@ -252,7 +252,6 @@ ol {
     position: absolute;
     z-index: 1;
   }
-  
 
   .HPProjects__content, .HPEducation__content, .HPContact__content {
     margin-top: 80px;
@@ -285,7 +284,7 @@ ol {
   }
 
   .HPEducation__background {
-    height: 900px;
+    height: 1200px;
   }
 
   .HomePageContact {

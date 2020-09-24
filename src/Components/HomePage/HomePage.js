@@ -51,6 +51,8 @@ export default function HomePage() {
             <p className='jobalDesc'>Subject: Divinity<br></br>Southwestern Baptist Theological Seminary<br></br>Graduated: 2015</p>
             <p className='jobalDesc'><b>Doctor of Philosophy:</b></p>
             <p className='jobalDesc'>Subject: Evangelism<br></br>Southwestern Baptist Theological Seminary<br></br>Graduated: 2020</p>
+            <p className='jobalDesc'><b>Certificate:</b></p>
+            <p className='jobalDesc'>Subject: Full Stack Developer<br></br>Thinkful<br></br>Graduated: 2020</p>
           </div>
         </div>
       </section>
