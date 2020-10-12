@@ -1,116 +1,44 @@
 .projects {
   margin-top: 160px;
-  margin-bottom: 40px;
 }
 
-.projContent {
-  padding-top: 20px;
+.projects__content {
+  margin-top: 50px;
 }
 
-.bulb, .bulb2 {
-  width: 30px;
-  display: none;
+.alpha {
+  background-color: #B0B8b4ff;
 }
 
-.projContent > h2{
-  font-size: 25px;
+.beta {
+  background-color: #184A45FF;
 }
 
-.projContent > p {
-  text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  font-family: "Helvetica Neue","Verdana", "sans-serif", "New Century Schoolbook", "serif";
-  letter-spacing: 2px;
-  max-width: 700px;
-  font-size: 20px;
-  margin-left: auto;
-  margin-right: auto;
+.gamma {
+  background-color: #FAFAFA;
 }
 
-.project__one__example, .project__two__example {
-  height: 800px;
-  border: 1px solid #7C92A6;
-  width: 80%;
-  max-width: 600px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.project__two__example {
-  height: 600px;
-}
-
-.project__sparrows {
-  height: 600px;
-}
-
-.projectLinkContainer {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-
-}
-
-.projectLinks {
-  border: none;
-  cursor: pointer;
-  background-color: #ced4d7;
-  border-radius: 10px;
-  padding: 11px 14px;
-  color: black;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.projectLinks:hover {
-  text-decoration: none;
-}
-
-.LTBG {
-  display: none;
+.projCI {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .project__two__example {
-    height: 800px;
+  .projects {
+    height: 90vh;
   }
 
-  .bulb {
-    width: 30px;
-    display: initial;
-  }
+  .projh {
+    margin-top: 250px;
+    font-size: 50px;
+  }  
   
-  .bulb2 {
-    width: 50px;
-    display: initial;
-  }
-  
-}
-
-@media screen and (min-width: 1024px) {
-  .project__one, .project__two {
+  .projects__content {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 150px;
   }
 
-  .project__one__example, .project__two__example {
-    width: 50%;
-    margin-bottom: 20px;
+  .gamma {
+    width: 1800px;
+    box-shadow: #184A45FF;
   }
-
-  .projContent {
-    width: 50%;
-    padding: 20px 50px 0 50px;
-  }
-
 }
