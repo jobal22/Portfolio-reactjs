@@ -1,5 +1,5 @@
 .projects {
-  margin-top: 160px;
+  padding-top: 50px;
 }
 
 .projects__content {
@@ -24,21 +24,30 @@
 
 @media screen and (min-width: 768px) {
   .projects {
-    height: 90vh;
+    /* height: 80vh; */
+    background-color: #eeede9;
+    padding-bottom: 20px;
   }
 
   .projh {
-    margin-top: 250px;
+    /* margin-top: 250px; */
     font-size: 50px;
   }  
   
   .projects__content {
-    display: flex;
-    margin-top: 150px;
+    /* display: flex;
+    margin-top: 150px; */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .gamma {
+  .projCLI {
+    margin: 50px 0;
+  }
+
+  /* .gamma {
     width: 1800px;
     box-shadow: #184A45FF;
-  }
+  } */
 }
