@@ -15,7 +15,7 @@ export default class Projects extends Component {
         <h1 className='projh'>Projects</h1>
         <div className='projects__content'>
           <div className='projCLI alpha'>
-            <a className='projCL' href='https://sparrowscoffeega.com/' target='_blank'>
+            <a className='projCL' href='https://sparrows-coffee.vercel.app' target='_blank'>
               <img className='projCI' src={scl} alt='sparrows coffee'/>
             </a>
           </div>

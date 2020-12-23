@@ -42,7 +42,7 @@
 }
 
 .logo {
-  width: 150px;
+  width: 130px;
   position: absolute; 
   left: 50%;
   transform: translate(-50%);
@@ -77,4 +77,4 @@
   .logo:hover + .logo2 {
     left: 49%;
   }
-}
+} 
