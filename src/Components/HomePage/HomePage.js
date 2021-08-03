@@ -18,6 +18,7 @@ export default function HomePage() {
       <section className='HomePageMe'>
         <div className='HPMe__background' />
         <div className='me_content'>
+    <h1>I love Jesus!!!</h1>
           <div className='profilePic'>
             <img className='personPhoto' id='jobalProfile' src={profile} alt='jobal profile'/>
           </div>
