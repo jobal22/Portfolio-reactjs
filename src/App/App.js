@@ -25,7 +25,7 @@ export default class App extends Component {
     return (
       <div className='App'>
         <nav className='App__nav'>
-      <h1>I love Jesus</h1>
+      <h1>I love Jesus!!!</h1>
           <Link className="navLink" to={"/"}>
             <img className='logo img' src={logo} alt='Logo'/>
             <img className='logo2 img' src={shine} alt='Shine'/>
