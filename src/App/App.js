@@ -78,11 +78,11 @@ export default class App extends Component {
               <Link className="navLink" to={"/"}>
                 <img className="logo img" src={logo} alt="Logo" />
               </Link>
-              <div className="topnav">
+              {/* <div className="topnav">
                 <div className="hamburger">
                   <HM />
                 </div>
-              </div>
+              </div> */}
             </div>
           </header>
           <Context.Provider value={contextValue}>

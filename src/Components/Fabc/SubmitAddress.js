@@ -108,7 +108,6 @@ export default class AddressSubmission extends Component {
     const { addressId } = this.props.match.params;
     const address = findAddress(addresses, addressId) || {};
     const { salvation, notes } = this.state;
-    console.log("jobal", this.context);
     return (
       <div className="SubmissionAddress">
         {/* <GHM /> */}
