@@ -1,6 +1,6 @@
-import React from 'react';
-import { bool } from 'prop-types';
-import { StyledMenu } from './Menu.styled';
+import React from "react";
+import { bool } from "prop-types";
+import { StyledMenu } from "./Menu.styled";
 
 const Menu = ({ open, ...props }) => {
   const isHidden = open ? true : false;
@@ -8,12 +8,12 @@ const Menu = ({ open, ...props }) => {
 
   return (
     <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
-      <a href="/experience" tabIndex={tabIndex}>
+      {/* <a href="/experience" tabIndex={tabIndex}>
         Experience
       </a>
       <a href="/projects" tabIndex={tabIndex}>
         Projects
-      </a>
+      </a> */}
       {/* <a href="/contact" tabIndex={tabIndex}>
         Contact
       </a> */}

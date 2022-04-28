@@ -1,50 +1,103 @@
-import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import { Route, Link } from 'react-router-dom';
-import HM from '../Components/HM/HM.js';
-import HomePage from '../Components/HomePage/HomePage.js';
-import Experience from '../Components/Experience/Experience.js';
-import Projects from '../Components/Projects/Projects.js';
-import ScrollToTop from '../Components/ScrollToTop/ScrollToTop';
-import logo from '../Img/jobalLogo5.png';
-import shine from '../Img/bulbOn.png';
-import './App.css';
-
+import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import { BrowserRouter, Route, Link } from "react-router-dom";
+import Context from "../Context/Context.js";
+import Team from "../Components/Fabc/Team.js";
+import Addresses from "../Components/Fabc/Addresses.js";
+import HM from "../Components/HM/HM.js";
+import HomePage from "../Components/HomePage/HomePage.js";
+import LandingPage from "../LandingPage/LandingPage.js";
+import AddressSubmission from "../Components/Fabc/SubmitAddress.js";
+import ScrollToTop from "../Components/ScrollToTop/ScrollToTop";
+import logo from "../Img/T4C.png";
+import shine from "../Img/bulbOn.png";
+import config from "../config";
 
 export default class App extends Component {
+  state = {
+    addresses: [],
+  };
+
+  setAddresses = (addresses) => {
+    this.setState({
+      addresses,
+    });
+  };
+
+  componentDidMount() {
+    this.setState({ loading: true }, () => {
+      Promise.all([fetch(`${config.API_ENDPOINT}/api/addresses`)])
+        .then(([addressesRes]) => {
+          if (!addressesRes.ok)
+            return addressesRes.json().then((e) => Promise.reject(e));
+          return Promise.all([addressesRes.json()]);
+        })
+        .then(([addresses]) => {
+          this.setState({ loading: false, addresses });
+        })
+        .catch((error) => {
+          console.error({ error });
+        });
+    });
+  }
+
+  updateAddress = (updatedAddress) => {
+    this.setState({
+      addresses: this.state.addresses.map((ad) =>
+        ad.id !== updatedAddress.id ? ad : updatedAddress
+      ),
+    });
+  };
+
   renderMainRoutes() {
     return (
       <>
-        <Route exact path="/" component={HomePage}/>
-        <Route exact path = "/experience" component={Experience}/>
-        <Route path = "/projects" component={Projects}/>
+        <Route exact path="/" component={HomePage} />
+        {/* <Route exact path="/experience" component={Experience} />
+        <Route path="/projects" component={Projects} /> */}
+        <Route exact path="/fabc" component={Team} />
+        <Route path="/fabc/team/:teamId" component={Addresses} />
+        <Route
+          path="/fabc/submit-address/:addressId"
+          component={AddressSubmission}
+        ></Route>
       </>
-    )
+    );
   }
+
   render() {
+    const contextValue = {
+      addresses: this.state.addresses,
+      updateAddress: this.updateAddress,
+    };
     return (
-      <div className='App'>
-        <nav className='App__nav'>
-          <Link className="navLink" to={"/"}>
-            <img className='logo img' src={logo} alt='Logo'/>
-            <img className='logo2 img' src={shine} alt='Shine'/>
-          </Link>
-          <div className="topnav">
-            <div className="hamburger">
-              <HM/>
+      <BrowserRouter>
+        <div className="grid-container">
+          <header>
+            <div>
+              <Link className="navLink" to={"/"}>
+                <img className="logo img" src={logo} alt="Logo" />
+              </Link>
+              <div className="topnav">
+                <div className="hamburger">
+                  <HM />
+                </div>
+              </div>
             </div>
-          </div>
-        </nav>
-        <main className='Main'>
-          <ScrollToTop />
-          {this.renderMainRoutes()}
-        </main>
-        <div className='footer'>
-          <footer className='App__footer'>
+          </header>
+          <Context.Provider value={contextValue}>
+            <main className="Main">
+              <ScrollToTop />
+              {this.renderMainRoutes()}
+            </main>
+          </Context.Provider>
+          {/* <div className="footer"> */}
+          <footer className="">
             <p>Hope to see you soon!</p>
           </footer>
+          {/* </div> */}
         </div>
-      </div>
-    )
+      </BrowserRouter>
+    );
   }
 }
