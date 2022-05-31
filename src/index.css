@@ -8,10 +8,14 @@ body {
   margin: 0;
   height: 100vh;
   font-size: 1.6rem;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Open Sans;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
+}
+
+h1, h2, h3 {
+  font-family: Open Sans;
 }
 
 /* This connects to public index.html */
@@ -36,10 +40,7 @@ header {
   padding-top: 5px;
   padding-bottom: 60px;
   background-color: #eeede9;
-  font-family: Neue Haas Unica,
-    'Times New Roman',
-    Times,
-    serif;
+  font-family: Open Sans;
   position: fixed;
   top: 0;
   left: 0;
@@ -63,10 +64,7 @@ footer {
   font-size: 20px;
   color: white;
   text-align: center;
-  font-family: Neue Haas Unica,
-    'Times New Roman',
-    Times,
-    serif;
+  font-family: Open Sans;
   z-index: 3;
 }
 
@@ -112,9 +110,9 @@ footer {
   font-size: 40px;
 }
 
-.list {
+/* .list {
   padding-inline-start: 0;
-}
+} */
 
 /* SUBMIT ADDRESS */
 .SubmissionAddress {
@@ -232,6 +230,7 @@ footer {
   margin-right: 10px;
   margin-bottom: -60px;
   border: 2px solid #8D98A1;
+  font-size: 17px;
 }
 
 .addrSecLinkH3:hover {
@@ -253,7 +252,7 @@ footer {
 }
 
 .addrSecLinkorderList li {
-  margin: 2em 0;
+  /* margin: 2em 0; */
   position: relative;
   counter-increment: inst;
 }
@@ -266,12 +265,12 @@ footer {
   font-style: italic;
   /* text-shadow: 1px 1px rgba(255, 150, 0, 0.5); */
   border-radius: 0 0.675em 0.675em 0;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-align: center;
   padding-top: 0;
   padding-left: 0;
   left: -5%;
-  top: 1.25em;
+  top: 2.5em;
   height: 1.35em;
   width: 1.75em;
   position: absolute;
@@ -294,6 +293,36 @@ footer {
   font-weight: bold;
   font-size: 16px;
   color: white;
+}
+
+/* TEAMS */
+.listCage {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 300px;
+
+  margin: 10px auto;
+}
+.list {
+  list-style: none;
+  border: 1px solid #899daa;
+  border-radius: 10px;
+  width: 100px;
+  margin: 10px auto;
+}
+.listLink {
+  text-decoration: none;
+}
+.listLink:active {
+  text-decoration: none;
+}
+.listLinkTx {
+  font-size: 20px;
+  color: #314a6b;
+}
+.listLinkTx:active {
+  color: #899daa;
 }
 
 @media screen and (max-width: 425px) {

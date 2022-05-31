@@ -6,8 +6,9 @@ import Team from "../Components/Fabc/Team.js";
 import Addresses from "../Components/Fabc/Addresses.js";
 import HM from "../Components/HM/HM.js";
 import HomePage from "../Components/HomePage/HomePage.js";
-import LandingPage from "../LandingPage/LandingPage.js";
 import AddressSubmission from "../Components/Fabc/SubmitAddress.js";
+import Dashboard from "../Components/Dashboard/Dashboard.js";
+import Preferences from "../Components/Preference/Preference.js";
 import ScrollToTop from "../Components/ScrollToTop/ScrollToTop";
 import logo from "../Img/T4C.png";
 import shine from "../Img/bulbOn.png";
@@ -61,6 +62,7 @@ export default class App extends Component {
           path="/fabc/submit-address/:addressId"
           component={AddressSubmission}
         ></Route>
+        {/* <Route path="/registration" component={""} /> */}
       </>
     );
   }
@@ -78,6 +80,9 @@ export default class App extends Component {
               <Link className="navLink" to={"/"}>
                 <img className="logo img" src={logo} alt="Logo" />
               </Link>
+
+              {/* <Auth /> */}
+              {/* <Link to={"/registration"}>Signup</Link> */}
               {/* <div className="topnav">
                 <div className="hamburger">
                   <HM />

@@ -17,28 +17,24 @@ export default class Team extends Component {
     const ads = addresses.map((a) => a.team);
     let adSort = ads.sort((a, b) => ads[b]);
     let adOrder = adSort.filter((a, index) => adSort.indexOf(a) === index);
-    // var uniq = ads
-    //   .map((ad) => {
-    //     return { count: 1, ad: ad };
-    //   })
-    //   .reduce((a, b) => {
-    //     a[b.ad] = (a[b.ad] || 0) + b.count;
-    //     return a;
-    //   }, {});
-    // var sorted = Object.keys(uniq).sort((a, b) => uniq[a] < uniq[b]);
-    // console.log("jobal", adOrder);
     return (
       <div className="card">
         <div className="">
           <h1 className="title">Teams</h1>
         </div>
-        <ul className="list">
+        <ol className="listCage">
           {adOrder.map((team) => (
-            <Link className="listLink" key={team.id} to={`/fabc/team/${team}`}>
-              <h2>Team {team}</h2>
-            </Link>
+            <li className="list">
+              <Link
+                className="listLink"
+                key={team.id}
+                to={`/fabc/team/${team}`}
+              >
+                <h2 class="listLinkTx">Team {team}</h2>
+              </Link>
+            </li>
           ))}
-        </ul>
+        </ol>
       </div>
     );
   }

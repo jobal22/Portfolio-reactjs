@@ -3,4 +3,5 @@ export default {
   API_URL:
     "https://address.melissadata.net/v3/WEB/GlobalAddress/doGlobalAddress",
   API_KEY: process.env.REACT_APP_KEY,
+  TOKEN_KEY: "hometohome-token",
 };
