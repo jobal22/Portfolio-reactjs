@@ -24,7 +24,7 @@ export default function HomePage() {
   return (
     <div className="HomePage">
       <section className="HomePageVerses">
-        <div>
+        <div className="HPTitle">
           <h1>Little Devotionals</h1>
           {files
             .slice(0)

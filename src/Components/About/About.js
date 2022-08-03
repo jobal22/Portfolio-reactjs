@@ -31,7 +31,7 @@ export default class About extends Component {
           </div>
         </section>
         <section className="HomePageEducation">
-          <div className="HPEducation__background" />
+          {/* <div className="HPEducation__background" /> */}
           <div className="HPEducation__content">
             <h2>Education</h2>
             <div className="HPEC">

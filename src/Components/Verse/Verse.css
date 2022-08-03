@@ -1,0 +1,16 @@
+.vPPage {
+  text-align: center;
+}
+
+.vPTitle {
+  text-align: center;
+}
+
+.vPTitle > h1 {
+  font-family: 'Hind', sans-serif;
+}
+
+.vPSelect {
+  margin-top: 50px;
+  text-align: center;
+}

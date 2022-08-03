@@ -11,7 +11,11 @@ import Dashboard from "../Components/Dashboard/Dashboard.js";
 import Preferences from "../Components/Preference/Preference.js";
 import ScrollToTop from "../Components/ScrollToTop/ScrollToTop";
 import About from "../Components/About/About";
+import Verse from "../Components/Verse/Verse";
+import Devotional from "../Components/Devotional/Devotional";
 import logo from "../Img/T4C.png";
+// import logo from "../Img/pwg.png";
+
 import config from "../config";
 
 export default class App extends Component {
@@ -55,6 +59,8 @@ export default class App extends Component {
       <>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/verse" component={Verse} />
+        <Route exact path="/verse/:verseId" component={Devotional} />
         {/* <Route exact path="/experience" component={Experience} />
         <Route path="/projects" component={Projects} /> */}
         {/* <Route exact path="/fabc" component={Team} />
