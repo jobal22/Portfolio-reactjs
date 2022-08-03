@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import profile from "../../Img/Jobal-photo.jpg";
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  TwitterShareButton,
+  TwitterIcon,
+  InstagramShareButton,
+  InstagramIcon,
+} from "react-share";
 import STORE from "../../store";
 // import sparkles from "../../Img/bulbs.jpg";
 import "./HomePage.css";
@@ -26,7 +32,16 @@ export default function HomePage() {
             .map((f) => (
               <div className="fileDiv" key={f.id}>
                 <img className="fileImage" src={f.image} alt={f.verse} />
-                <p className="fileDate">{f.date}</p>
+                <div className="fileContent">
+                  <FacebookShareButton
+                    url={f.url}
+                    className="fileBlock"
+                    quote={"A little devotional"}
+                  >
+                    <FacebookIcon size={20} round={true} />
+                  </FacebookShareButton>
+                  <p className="fileDate fileBlock">{f.date}</p>
+                </div>
               </div>
             ))}
         </div>
