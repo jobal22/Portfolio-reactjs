@@ -38,7 +38,7 @@ export const StyledBurger = styled.button`
       transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
     }
   }
-  @media screen and (min-width: 1230px) {
-    display: none;
-  }
+  // @media screen and (min-width: 1230px) {
+  //   display: none;
+  // }
 `;

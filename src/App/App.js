@@ -10,8 +10,8 @@ import AddressSubmission from "../Components/Fabc/SubmitAddress.js";
 import Dashboard from "../Components/Dashboard/Dashboard.js";
 import Preferences from "../Components/Preference/Preference.js";
 import ScrollToTop from "../Components/ScrollToTop/ScrollToTop";
+import About from "../Components/About/About";
 import logo from "../Img/T4C.png";
-import shine from "../Img/bulbOn.png";
 import config from "../config";
 
 export default class App extends Component {
@@ -54,14 +54,15 @@ export default class App extends Component {
     return (
       <>
         <Route exact path="/" component={HomePage} />
+        <Route exact path="/about" component={About} />
         {/* <Route exact path="/experience" component={Experience} />
         <Route path="/projects" component={Projects} /> */}
-        <Route exact path="/fabc" component={Team} />
+        {/* <Route exact path="/fabc" component={Team} />
         <Route path="/fabc/team/:teamId" component={Addresses} />
         <Route
           path="/fabc/submit-address/:addressId"
           component={AddressSubmission}
-        ></Route>
+        ></Route> */}
         {/* <Route path="/registration" component={""} /> */}
       </>
     );
@@ -83,11 +84,11 @@ export default class App extends Component {
 
               {/* <Auth /> */}
               {/* <Link to={"/registration"}>Signup</Link> */}
-              {/* <div className="topnav">
+              <div className="topnav">
                 <div className="hamburger">
                   <HM />
                 </div>
-              </div> */}
+              </div>
             </div>
           </header>
           <Context.Provider value={contextValue}>
@@ -98,7 +99,7 @@ export default class App extends Component {
           </Context.Provider>
           {/* <div className="footer"> */}
           <footer className="">
-            <p>Hope to see you soon!</p>
+            <p>Plant | Water | Grow</p>
           </footer>
           {/* </div> */}
         </div>
