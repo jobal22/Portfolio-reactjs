@@ -33,13 +33,13 @@ export default function HomePage() {
               <div className="fileDiv" key={f.id}>
                 <img className="fileImage" src={f.image} alt={f.verse} />
                 <div className="fileContent">
-                  <FacebookShareButton
+                  {/* <FacebookShareButton
                     url={f.url}
                     className="fileBlock"
                     quote={"A little devotional"}
                   >
                     <FacebookIcon size={20} round={true} />
-                  </FacebookShareButton>
+                  </FacebookShareButton> */}
                   <p className="fileDate fileBlock">{f.date}</p>
                 </div>
               </div>

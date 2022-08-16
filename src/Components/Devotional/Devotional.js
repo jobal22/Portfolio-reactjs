@@ -28,13 +28,13 @@ export default class Devotional extends Component {
             alt={devotional.verse}
           />
           <div className="fileContent">
-            <FacebookShareButton
+            {/* <FacebookShareButton
               url={devotional.url}
               className="fileBlock"
               quote={"A little devotional"}
             >
               <FacebookIcon size={20} round={true} />
-            </FacebookShareButton>
+            </FacebookShareButton> */}
             <p className="fileDate fileBlock">{devotional.date}</p>
           </div>
         </div>
