@@ -14,31 +14,33 @@ import About from "../Components/About/About";
 import Verse from "../Components/Verse/Verse";
 import Devotional from "../Components/Devotional/Devotional";
 import logo from "../Img/T4C.png";
+import "./App.css";
 // import logo from "../Img/pwg.png";
 
 import config from "../config";
 
 export default class App extends Component {
   state = {
-    addresses: [],
+    devotions: [],
   };
 
-  setAddresses = (addresses) => {
+  setDevotions = (devotions) => {
     this.setState({
-      addresses,
+      devotions,
     });
   };
 
   componentDidMount() {
     this.setState({ loading: true }, () => {
-      Promise.all([fetch(`${config.API_ENDPOINT}/api/addresses`)])
-        .then(([addressesRes]) => {
-          if (!addressesRes.ok)
-            return addressesRes.json().then((e) => Promise.reject(e));
-          return Promise.all([addressesRes.json()]);
+      Promise.all([fetch(`${config.API_ENDPOINT}/api/devotions`)])
+        .then(([devotionsRes]) => {
+          if (!devotionsRes.ok)
+            return devotionsRes.json().then((e) => Promise.reject(e));
+          return Promise.all([devotionsRes.json()]);
         })
-        .then(([addresses]) => {
-          this.setState({ loading: false, addresses });
+        .then(([devotions]) => {
+          this.setState({ loading: false, devotions });
+          // console.log("jobal", devotions);
         })
         .catch((error) => {
           console.error({ error });
@@ -46,10 +48,10 @@ export default class App extends Component {
     });
   }
 
-  updateAddress = (updatedAddress) => {
+  updateDevotions = (updateDevotions) => {
     this.setState({
-      addresses: this.state.addresses.map((ad) =>
-        ad.id !== updatedAddress.id ? ad : updatedAddress
+      devotions: this.state.devotions.map((ad) =>
+        ad.id !== updateDevotions.id ? ad : updateDevotions
       ),
     });
   };
@@ -76,9 +78,10 @@ export default class App extends Component {
 
   render() {
     const contextValue = {
-      addresses: this.state.addresses,
-      updateAddress: this.updateAddress,
+      devotions: this.state.devotions,
+      // updateDevotions: this.updateDevotions,
     };
+    // console.log("now look", contextValue);
     return (
       <BrowserRouter>
         <div className="grid-container">

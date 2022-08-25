@@ -27,13 +27,94 @@ hr {
   margin-bottom: 30px;
 }
 
-.fileDiv {
+/* .fileDiv {
     padding: 30px 0;
     max-width: 1000px;
     text-align: center;
     font-size: 12px;
     margin: 0 auto;
+} */
+
+/* ADD */
+.fileDiv {
+  width: 500px;
+  height: auto;
+  margin: 50px auto 10px auto;
+  /* border: 1px solid #eee; */
+  border-radius: 20px;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+  background-color: white;
 }
+
+.devoOver {
+  padding-top: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.knot{
+border-top: 1px solid #0e2c3b;
+width: 80%;
+margin: 0 auto;
+}
+
+
+/* .fileDiv:nth-child(1n) {
+  background: linear-gradient(180deg, #FAFDF3 40%, #AE6E4E 40%);
+}
+
+.fileDiv:nth-child(2n) {
+  background: linear-gradient(180deg, #FAFDF3 40%, #D0C8B6 40%);
+}
+
+.fileDiv:nth-child(3n) {
+  background: linear-gradient(180deg, #FAFDF3 40%, #AEC6CE 40%);
+} */
+
+.fileDiv2 {
+  /*   background-color: #FAFDF3; */
+  
+  text-align: center;
+}
+
+.titleF {
+  font-size: 35px;
+  padding: 30px;
+}
+
+.verF {
+  padding: 0 50px;
+}
+
+.refF {
+  text-align: right;
+  margin-right: 30px;
+  padding-bottom: 20px;
+}
+
+.devoF {
+  padding: 0 50px;
+  text-align: left;
+  /*   background-color: #AE6E4E; */
+  /* height: 370px; */
+}
+
+.dial {
+  margin: 0 auto;
+  align-items: center;
+  /* background-color: #3c5474; */
+  /* border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; */
+}
+
+.dialPhoto {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+/* CLOSEOUT */
 
 .fileImage {
   display: block;
@@ -353,4 +434,11 @@ ol {
     margin-top: 30px;
   }
     
+}
+
+@media screen and (max-width: 768px) {
+ .fileDiv, .fileDiv2, .devoOver {
+  border-radius: 0%;
+ }
+
 }
