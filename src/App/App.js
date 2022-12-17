@@ -2,11 +2,8 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Context from "../Context/Context.js";
-import Team from "../Components/Fabc/Team.js";
-import Addresses from "../Components/Fabc/Addresses.js";
 import HM from "../Components/HM/HM.js";
 import HomePage from "../Components/HomePage/HomePage.js";
-import AddressSubmission from "../Components/Fabc/SubmitAddress.js";
 import Dashboard from "../Components/Dashboard/Dashboard.js";
 import Preferences from "../Components/Preference/Preference.js";
 import ScrollToTop from "../Components/ScrollToTop/ScrollToTop";
@@ -59,19 +56,11 @@ export default class App extends Component {
   renderMainRoutes() {
     return (
       <>
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/about" component={About} />
+        {/* <Route exact path="/" component={HomePage} /> */}
+        <Route exact path="/" component={About} />
+        {/* <Route exact path="/about" component={About} />
         <Route exact path="/verse" component={Verse} />
-        <Route exact path="/verse/:verseId" component={Devotional} />
-        {/* <Route exact path="/experience" component={Experience} />
-        <Route path="/projects" component={Projects} /> */}
-        {/* <Route exact path="/fabc" component={Team} />
-        <Route path="/fabc/team/:teamId" component={Addresses} />
-        <Route
-          path="/fabc/submit-address/:addressId"
-          component={AddressSubmission}
-        ></Route> */}
-        {/* <Route path="/registration" component={""} /> */}
+        <Route exact path="/verse/:verseId" component={Devotional} /> */}
       </>
     );
   }
@@ -93,11 +82,11 @@ export default class App extends Component {
 
               {/* <Auth /> */}
               {/* <Link to={"/registration"}>Signup</Link> */}
-              <div className="topnav">
+              {/* <div className="topnav">
                 <div className="hamburger">
                   <HM />
                 </div>
-              </div>
+              </div> */}
             </div>
           </header>
           <Context.Provider value={contextValue}>

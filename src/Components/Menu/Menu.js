@@ -1,6 +1,7 @@
 import React from "react";
 import { bool } from "prop-types";
 import { StyledMenu } from "./Menu.styled";
+import Dropdown from "./Dropdown.js";
 
 const Menu = ({ open, ...props }) => {
   const isHidden = open ? true : false;
@@ -17,6 +18,7 @@ const Menu = ({ open, ...props }) => {
       <a href="/about" tabIndex={tabIndex}>
         About the Author
       </a>
+      {/* <Dropdown /> */}
     </StyledMenu>
   );
 };
