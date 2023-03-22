@@ -23,9 +23,9 @@ export default class About extends Component {
                 2009 by His grace through faith. I am married and have three
                 children. My ministry currently revolves around my Associate
                 Pastor of Evangelism and Discipleship position at Friendly
-                Avenue Baptist Church in Greensboro, NC. These “Little
-                Devotionals” are a part of the church’s Bible reading plan and
-                coordinate with the weekly memory verse.
+                Avenue Baptist Church in Greensboro, NC. My desire is that every
+                member is walking in the daily disciplines of prayer, Bible,
+                evangelism, and fellowship.
               </p>
             </div>
           </div>

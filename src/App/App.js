@@ -10,7 +10,7 @@ import ScrollToTop from "../Components/ScrollToTop/ScrollToTop";
 import About from "../Components/About/About";
 import Verse from "../Components/Verse/Verse";
 import Devotional from "../Components/Devotional/Devotional";
-import logo from "../Img/T4C.png";
+import logo from "../Img/jlog.png";
 import "./App.css";
 // import logo from "../Img/pwg.png";
 
