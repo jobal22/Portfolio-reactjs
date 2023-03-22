@@ -1,6 +1,25 @@
 import styled from "styled-components";
 
 export const StyledMenu = styled.nav`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #2c466c;
+  // transform: ${({ open }) =>
+    open ? "translateX(-100)" : "translateX(-100%)"};
+  height: 500px;
+  text-align: left;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  position: absolute;
+  top: 10;
+  left: 0;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  width: 350px;
+  min-width: 350px;
+  max-width: 350px;
+
   h1 {
     color: white;
     padding-left: 20px;
