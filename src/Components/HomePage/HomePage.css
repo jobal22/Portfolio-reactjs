@@ -24,7 +24,7 @@ hr {
   font-family: 'Hind', sans-serif;
   font-style: normal;
   background-color: transparent;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 /* .fileDiv {
@@ -187,13 +187,26 @@ margin: 0 auto;
   margin-right: 20px; */
 }
 
-.HPProjects__content, .HPEducation__content, .HPContact__content  {
+.HPProjects__content, .HPContact__content  {
   margin-top: 65px;
 }
 
 /* .HPProjects__content  > h2 {
   margin-top: 80px;
 } */
+
+.HPF1 {
+  height: 85px;
+  width: 100%;
+  background-color: #ced4d7;
+}
+
+.HPF2 {
+  height: 60px;
+  width: 100%;
+  background-color: #76838A;
+  margin-bottom: -20px;
+}
 
 .HPProjects__content  > p, .HPEC > p {
   margin-top: 20px;
@@ -207,6 +220,7 @@ margin: 0 auto;
     ;
     /* position: absolute;
     z-index: 1; */
+  margin-top:20px;
 }
 
 .meButton, .projectsButton {
@@ -392,7 +406,7 @@ ol {
     z-index: 1;
   }
 
-  .HPProjects__content, .HPEducation__content, .HPContact__content {
+  .HPProjects__content,  .HPContact__content {
     margin-top: 80px;
   }
 
