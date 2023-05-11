@@ -196,7 +196,7 @@ margin: 0 auto;
 } */
 
 .HPF1 {
-  height: 85px;
+  height: 80px;
   width: 100%;
   background-color: #ced4d7;
 }
@@ -204,9 +204,17 @@ margin: 0 auto;
 .HPF2 {
   height: 60px;
   width: 100%;
-  background-color: #76838A;
+  background-color: #7D8D9C;
   margin-bottom: -20px;
 }
+
+.HPF3 {
+    height: 50px;
+    width: 100%;
+    background-color: #637483;
+    margin-bottom: -20px;
+  }
+
 
 .HPProjects__content  > p, .HPEC > p {
   margin-top: 20px;

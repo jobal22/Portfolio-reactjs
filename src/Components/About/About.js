@@ -30,10 +30,9 @@ export default class About extends Component {
             </div>
           </div>
         </section>
-        <section className="HPF1">
-          <div className="HPF1a"></div>
-        </section>
+        <section className="HPF1"></section>
         <section className="HPF2"></section>
+        <section className="HPF3"></section>
         <section className="HomePageEducation">
           {/* <div className="HPEducation__background" /> */}
           <div className="HPEducation__content">
