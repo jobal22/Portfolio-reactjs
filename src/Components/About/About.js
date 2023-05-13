@@ -1,7 +1,19 @@
 import React, { Component } from "react";
-import profile from "../../Img/Jobal-photo.jpg";
+import { ReactDOM } from "react";
+import Gospel from "../Gospel/Gospel";
+import profile from "../../Img/Jobal-photo1.png";
 
 export default class About extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visible: false,
+      visible1: false,
+      visible2: false,
+      visible3: false,
+    };
+  }
+
   render() {
     return (
       <div className="HomePage">
@@ -30,9 +42,51 @@ export default class About extends Component {
             </div>
           </div>
         </section>
-        <section className="HPF1"></section>
-        <section className="HPF2"></section>
-        <section className="HPF3"></section>
+        <section className="HPF1">
+          {/* <div className="HPF_content">
+            <button
+              className="HP_button"
+              onClick={() => this.setState({ visible: !this.state.visible })}
+            >
+              Gospel
+            </button>
+            {this.state.visible && (
+              <div>
+                <Gospel />
+              </div>
+            )}
+          </div> */}
+        </section>
+        <section className="HPF2">
+          {/* <div className="HPF_content">
+            <button
+              className="HP_button"
+              onClick={() => this.setState({ visible1: !this.state.visible1 })}
+            >
+              {this.state.visible1 ? "Gospel" : "Gospel"}
+            </button>
+            {this.state.visible1 && (
+              <div>
+                <Gospel />
+              </div>
+            )}
+          </div> */}
+        </section>
+        <section className="HPF3">
+          {/* <div className="HPF_content">
+            <button
+              className="HP_button"
+              onClick={() => this.setState({ visible2: !this.state.visible2 })}
+            >
+              {this.state.visible2 ? "Gospel" : "Gospel"}
+            </button>
+            {this.state.visible2 && (
+              <div>
+                <Gospel />
+              </div>
+            )}
+          </div> */}
+        </section>
         <section className="HomePageEducation">
           {/* <div className="HPEducation__background" /> */}
           <div className="HPEducation__content">
