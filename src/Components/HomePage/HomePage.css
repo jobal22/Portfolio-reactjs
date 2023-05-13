@@ -526,16 +526,20 @@ ol {
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
  .fileDiv, .fileDiv2, .devoOver {
   border-radius: 0%;
  }
  .HomePageMe {
   margin-bottom: 30px;
  }
- .HPF1, .HPF2, .HPF3 {
+
+ .HPMe__background {
+   height: 1140px;
+ /* .HPF1, .HPF2, .HPF3 {
   display: none;
- }
+ } */
+}
  .HPContact__content {
   margin-top: 35px;
  }
