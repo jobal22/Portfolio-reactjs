@@ -1,0 +1,66 @@
+.mdHeading {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto; 
+  display: block;
+  padding: 24px 24px;
+  background-color: #BFE0FF;
+}
+
+.mdHDiv {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+  max-width: 1024px;
+  padding: 0 10px;
+}
+
+.mdHTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 54px;
+  /* font-weight: lighter; */
+  text-align: left;
+}
+
+.mdHMotto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.mdMods {
+  width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    padding: 24px 24px;
+    max-width: 1024px;
+}
+
+.modCage {
+  width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    padding: 24px 16px;
+    max-width: 1024px;
+  max-height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 24px 0px;
+  border: 1px solid rgb(226, 225, 230);
+  border-radius: 8px;
+}
+
+.modTitle {
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.modNum {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

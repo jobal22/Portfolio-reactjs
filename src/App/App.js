@@ -10,6 +10,9 @@ import ScrollToTop from "../Components/ScrollToTop/ScrollToTop";
 import About from "../Components/About/About";
 import Verse from "../Components/Verse/Verse";
 import Devotional from "../Components/Devotional/Devotional";
+import Modules from "../Components/Modules/Modules.js";
+import Gospel from "../Components/NewBelieversLessons/GospelLesson.js";
+import GettingStarted from "../Components/NewBelieversLessons/GettingStarted.js";
 import logo from "../Img/jlog.png";
 import "./App.css";
 // import logo from "../Img/pwg.png";
@@ -58,6 +61,10 @@ export default class App extends Component {
       <>
         {/* <Route exact path="/" component={HomePage} /> */}
         <Route exact path="/" component={About} />
+        <Route exact path="/Modules" component={Modules} />
+        <Route exact path="/Gospel" component={Gospel} />
+        <Route exact path="/Gettingstarted" component={GettingStarted} />
+
         {/* <Route exact path="/about" component={About} />
         <Route exact path="/verse" component={Verse} />
         <Route exact path="/verse/:verseId" component={Devotional} /> */}
