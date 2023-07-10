@@ -480,6 +480,7 @@ ol {
     background-color: #FAFAFA;
     position: absolute;
     z-index: 1;
+    margin-top: 40px;
   }
 
   .HPProjects__content,  .HPContact__content {
