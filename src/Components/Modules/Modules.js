@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Modules.css";
 
 export default class Modules extends Component {
@@ -9,7 +10,7 @@ export default class Modules extends Component {
           <div className="mdHDiv">
             <h1 className="mdHTitle">Equip Modules</h1>
             <p className="mdHMotto">
-              Equipping this saints for the work of the ministry
+              Equipping the saints for the work of the ministry
             </p>
           </div>
         </section>
@@ -20,9 +21,36 @@ export default class Modules extends Component {
           </div>
         </section>
         <section className="mdList">
-          <div className="">
-            <ol></ol>
-          </div>
+          <Link className="mdLink" to="/gettingstarted">
+            <div className="mdLCage">
+              <h5 className="mdLN">1.1</h5>
+              <h5 className="mdLNa">Getting Started</h5>
+            </div>
+          </Link>
+        </section>
+        <section className="mdList">
+          <Link className="mdLink" to="/gospel">
+            <div className="mdLCage">
+              <h5 className="mdLN">1.2</h5>
+              <h5 className="mdLNa">The Gospel</h5>
+            </div>
+          </Link>
+        </section>
+        <section className="mdList">
+          <Link className="mdLink" to="/testimony">
+            <div className="mdLCage">
+              <h5 className="mdLN">1.3</h5>
+              <h5 className="mdLNa">Testimony</h5>
+            </div>
+          </Link>
+        </section>
+        <section className="mdList">
+          <Link className="mdLink" to="/assurance">
+            <div className="mdLCage">
+              <h5 className="mdLN">1.4</h5>
+              <h5 className="mdLNa">Assurance of Salvation</h5>
+            </div>
+          </Link>
         </section>
       </div>
     );

@@ -19,6 +19,9 @@ const Menu = ({ open, ...props }) => {
       <a href="/testimony" tabIndex={tabIndex}>
         1.3 Testimony
       </a>
+      <a href="/assurance" tabIndex={tabIndex}>
+        1.4 Assurance of Salvation
+      </a>
     </StyledMenu>
   );
 };

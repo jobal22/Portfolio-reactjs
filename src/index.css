@@ -11,7 +11,7 @@ body {
   font-family: Open Sans;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: #fafafa;
 }
 
 h1, h2, h3 {
@@ -61,11 +61,15 @@ footer {
   background-color: #2e455d;
   padding-top: 10px;
   padding-bottom: 3px;
-  font-size: 20px;
+  font-size: 12px;
   color: white;
   text-align: center;
   font-family: Open Sans;
   z-index: 3;
+}
+
+footer > p {
+  margin-bottom: 1px;
 }
 
 .logo {

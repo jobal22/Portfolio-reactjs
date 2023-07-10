@@ -13,6 +13,8 @@ import Devotional from "../Components/Devotional/Devotional";
 import Modules from "../Components/Modules/Modules.js";
 import Gospel from "../Components/NewBelieversLessons/GospelLesson.js";
 import GettingStarted from "../Components/NewBelieversLessons/GettingStarted.js";
+import Testimony from "../Components/NewBelieversLessons/Testimony.js";
+import Assurance from "../Components/NewBelieversLessons/Assurance.js";
 import logo from "../Img/jlog.png";
 import "./App.css";
 // import logo from "../Img/pwg.png";
@@ -64,6 +66,8 @@ export default class App extends Component {
         <Route exact path="/Modules" component={Modules} />
         <Route exact path="/Gospel" component={Gospel} />
         <Route exact path="/Gettingstarted" component={GettingStarted} />
+        <Route exact path="/Testimony" component={Testimony} />
+        <Route exact path="/Assurance" component={Assurance} />
 
         {/* <Route exact path="/about" component={About} />
         <Route exact path="/verse" component={Verse} />
@@ -104,7 +108,8 @@ export default class App extends Component {
           </Context.Provider>
           {/* <div className="footer"> */}
           <footer className="">
-            <p>Plant | Water | Grow</p>
+            <p>All Rights Reserved</p>
+            <p>All Scripture is from the English Standard Version</p>
           </footer>
           {/* </div> */}
         </div>

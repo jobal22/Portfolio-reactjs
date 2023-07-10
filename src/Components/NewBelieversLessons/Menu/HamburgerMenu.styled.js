@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledBurger = styled.button`
   position: absolute;
-  top: 5%;
-  right: 5rem;
+  top: 2%;
+  left: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -38,7 +38,7 @@ export const StyledBurger = styled.button`
       transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
     }
   }
-  // @media screen and (min-width: 1230px) {
-  //   display: none;
-  // }
+  @media screen and (max-width: 767px) {
+    left: 2rem;
+  }
 `;

@@ -14,11 +14,21 @@
   font-size: 60px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
 }
+
+/* .lesTitle {
+  margin-top: 40px;
+} */
+
 
 h1, h2, h3, h4, h5 {
   text-align: left;
   /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.backLink {
+  color: #2e455d;
 }
 
 hr {
@@ -29,6 +39,36 @@ hr {
   border: .5px solid #b1bcc6;
 }
 
+.icon {
+  width: 125px;
+  display: block;
+  margin: auto;
+ }
+
+ .lsi1 {
+  /* background-color: #ccd4da; */
+  background-image: url(../../Img/ScBG.jpg);
+  background-size: 600px 600px;
+  border-radius: 10px;
+  padding: 40px 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 24px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  /* color: #8c9cac; */
+  /* background:
+      linear-gradient(to right, #ccd4da 2px, transparent 4px) 0 0,
+      linear-gradient(to right, #ccd4da 2px, transparent 4px) 0 100%,
+      linear-gradient(to left, #ccd4da 2px, transparent 4px) 100% 0,
+      linear-gradient(to left, #ccd4da 2px, transparent 4px) 100% 100%,
+      linear-gradient(to bottom, #ccd4da 2px, transparent 4px) 0 0,
+      linear-gradient(to bottom, #ccd4da 2px, transparent 4px) 100% 0,
+      linear-gradient(to top, #ccd4da 2px, transparent 4px) 0 100%,
+      linear-gradient(to top, #ccd4da 2px, transparent 4px) 100% 100%;
+      background-repeat: no-repeat;
+        background-size: 20px 20px;
+        padding: 30px 0; */
+ }
+
 .lsiv {
   font-size: 20px;
   padding: 0 50px;
@@ -37,6 +77,7 @@ hr {
 .lsir {
   text-align: right;
   padding: 0 50px;
+  font-size: 16px;
 }
 
 .lsisti {
@@ -60,20 +101,10 @@ hr {
 }
 
 .gO {
-  /* border: 3px solid #c1d6d6;
-  background: #c1d6d6; */
   padding: 10px 0;
-  /* background: -webkit-linear-gradient(left, #c1d6d6 50%, transparent 50%); */
-    /* For Safari 5.1 to 6.0 */
-    /* background: -o-linear-gradient(right, #c1d6d6 50%, transparent 50%); */
-    /* For Opera 11.1 to 12.0 */
-    /* background: -moz-linear-gradient(right, #c1d6d6 50%, transparent 50%); */
-    /* For Firefox 3.6 to 15 */
-    /* background: linear-gradient(to right, #c1d6d6 50%, transparent 50%); */
-    /* Standard syntax */
 }
 
-.gOT, .gOT1 {
+.gOT, .gOT1a, .gOT1 {
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -84,18 +115,253 @@ hr {
   font-size: 28px;
 }
 
-.gOT1 {
+.gOT1a {
   font-weight: lighter;
   padding: 24px 24px 17px 24px;
   font-size: 18px;
   border: 3px solid #c1d6d6;
 }
 
+.gOT1 {
+  /* font-weight: lighter; */
+  padding: 22px 24px 16.5px 24px;
+  font-size: 20px;
+  border: 3px solid #c1d6d6;
+}
+
 .sp {
-  font-size: 14px;
-  padding: 12.6px 24px 17.5px 24px;
+  font-size: 16px;
+  padding: 8.8px 24px 17px 24px;
 }
 
 .sp1 {
   /* color: #899ca9; */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonB {
+  /* background-color: #b1bcc6; */
+  border: 1px solid #b1bcc6;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  width: 100px;
+}
+
+.buttonLink {
+  color: #2e455d;
+}
+
+.buttonLink:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 24px 0px;
+}
+
+.bb {
+  font-weight: bold;
+  font-size: 22px;
+  color: #8c9cac;
+}
+
+.blA {
+  margin: 0 15px;
+}
+
+
+.lss {
+  background: #2e455d;
+  color: #fafafa;
+  margin-right: 250px;
+  padding-left: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 23px;
+}
+
+.offH {
+  color: #8c9cac;
+}
+
+.tipsFlex, .tcFlex {display: flex;}
+
+.tipTitl {
+  font-size: 38px;
+  padding: 12px 20px 20px 20px;
+}
+
+.sub {
+  background-color: #2e455d;
+  color: #fafafa;
+  border-radius: 10px 0 0 10px;
+}
+
+.cont {
+  padding: 20px;
+  background-color: #ccd4da;
+  border-radius: 0 10px 10px 0;
+}
+
+.conta {
+  padding: 40px;
+  background-color: #ccd4da;
+  border-radius: 0 10px 10px 0;
+}
+
+.contb {
+  padding: 40px;
+  background-color: #ccd4da;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-image: url(../../Img/ScBG.jpg);
+  background-size: 600px 600px;
+  border-radius: 10px;
+  /* padding: 40px 0; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 24px 0px;
+}
+
+.tips {
+  flex: 1;
+}
+
+.tipW {
+  font-size: 20px;
+  margin: 30px 0 0 10px;
+}
+
+.tipS {
+  font-size: 20px;
+  margin: 20px 0 0 10px;
+}
+
+.num, .tipW, .tipS, .nb {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.num {font-size: 40px;}
+
+.numTil {
+  width: 100%;
+}
+
+.nb {
+  text-align: center;
+  font-size: 35px;
+}
+
+@media screen and (max-width: 767px) {
+  .lesTitl>h1 {
+      font-size: 50px;
+    }
+    .gOT,
+    .gOT1a,
+    .gOT1 {
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+    .gOT {
+      background: #c1d6d6;
+      padding: 18px;
+      font-size: 28px;
+      border-radius: 10px 10px 0 0;
+    }
+  
+    .gOT1a {
+      font-weight: bold;
+      padding: 24px 24px 17px 24px;
+      font-size: 26px;
+      border: 3px solid #c1d6d6;
+      margin-top: -10px;
+      border-radius: 0 0 10px 10px;
+    }
+  
+    .gOT1 {
+      font-weight: bold;
+      padding: 22px 24px 16.5px 24px;
+      font-size: 20px;
+      border: 3px solid #c1d6d6;
+      margin-top: -10px;
+      border-radius: 0 0 10px 10px;
+    }
+
+    .tipsFlex
+     {
+      display: block;
+    }
+
+    .tcFlex {display: flex};
+    
+    .tipTitl {
+      font-size: 30px;
+      padding: 12px 20px 20px 20px;
+      text-align: center;
+    }
+    
+    .sub {
+      background-color: #2e455d;
+      color: #fafafa;
+      border-radius: 10px 10px 0 0;
+    }
+    
+    .cont {
+      padding: 16px 20px 24px 20px;
+      background-color: #ccd4da;
+      border-radius: 0 0 10px 10px;
+      margin-top: -60px;
+    }
+    
+    .conta {
+      padding: 40px;
+      background-color: #ccd4da;
+      border-radius: 0 0 10px 10px;
+      margin-top: -60px;
+    }
+
+    .contb {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    
+    .tips {
+      flex: 1;
+    }
+    
+    .tipW {
+      font-size: 20px;
+      margin: 25px 0 0 10px;
+    }
+    
+    .tipS {
+      font-size: 20px;
+      margin: 15px 0 0 10px;
+    }
+    
+    .num,
+    .tipW,
+    .tipS {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .num {
+      font-size: 40px;
+    }
+
+    .lss {
+      background: #2e455d;
+      color: #fafafa;
+      margin-left: 0;
+      margin-right: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-weight: normal;
+      border-radius: 5px;
+      font-size: 18px;
+    }
 }

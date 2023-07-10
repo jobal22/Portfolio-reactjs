@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import HM from "./Menu/HM";
 import "./Lessons.css";
 
@@ -8,6 +9,9 @@ export default class Overview extends Component {
       <div className="lessonsCage">
         <HM />
         <div className="lesTitl lc">
+          <Link className="backLink" to="/modules">
+            New Believer's Module
+          </Link>
           <p>Lesson 1.1</p>
           <h1>Getting Started</h1>
         </div>
@@ -35,16 +39,29 @@ export default class Overview extends Component {
                 The New Believers module is made up of eight essential lessons.
                 Each lesson is designed to give you a better understanding of
                 your new life with Christ and your responsibility as a believer
-                in bringing glory to God. The first three lessons focus on the
-                Gospel, Believer’s Testimony, and Assurance of Salvation. These
-                lessons are designed to help you better understand the Good News
-                about Jesus, how it has personally affected your life, and how
-                it will continuously transform you each day. The fourth lesson
-                is on Baptism which is one of the first steps of obedience for
-                every new believer. The last four lessons focus on the four
+                in bringing glory to God.{" "}
+              </p>
+              <p className="lsisti">
+                <span className="bb">Lessons 2-4</span> focus on the Gospel,
+                Believer’s Testimony, and Assurance of Salvation. These lessons
+                are designed to help you better understand the Good News about
+                Jesus, how it has personally affected your life, and how it will
+                continuously transform you each day.{" "}
+              </p>
+              <p className="lsisti">
+                <span className="bb">Lesson 5</span> is about Baptism which is
+                one of the first steps of obedience for every new believer.{" "}
+              </p>
+              <p className="lsisti">
+                <span className="bb">Lessons 6-9</span> focus on the four
                 disciplines a believer should be walking in daily: Evangelism,
                 Bible, Prayer, and Fellowship.
               </p>
+            </div>
+            <div className="button">
+              <Link className="buttonLink" to="/gospel">
+                <button className="buttonB">Next Lesson</button>
+              </Link>
             </div>
           </div>
         </div>
