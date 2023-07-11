@@ -15,6 +15,7 @@ import Gospel from "../Components/NewBelieversLessons/GospelLesson.js";
 import GettingStarted from "../Components/NewBelieversLessons/GettingStarted.js";
 import Testimony from "../Components/NewBelieversLessons/Testimony.js";
 import Assurance from "../Components/NewBelieversLessons/Assurance.js";
+import Baptism from "../Components/NewBelieversLessons/Baptism.js";
 import logo from "../Img/jlog.png";
 import "./App.css";
 // import logo from "../Img/pwg.png";
@@ -68,6 +69,7 @@ export default class App extends Component {
         <Route exact path="/Gettingstarted" component={GettingStarted} />
         <Route exact path="/Testimony" component={Testimony} />
         <Route exact path="/Assurance" component={Assurance} />
+        <Route exact path="/Baptism" component={Baptism} />
 
         {/* <Route exact path="/about" component={About} />
         <Route exact path="/verse" component={Verse} />

@@ -52,6 +52,14 @@ export default class Modules extends Component {
             </div>
           </Link>
         </section>
+        <section className="mdList">
+          <Link className="mdLink" to="/baptism">
+            <div className="mdLCage">
+              <h5 className="mdLN">1.5</h5>
+              <h5 className="mdLNa">Baptism</h5>
+            </div>
+          </Link>
+        </section>
       </div>
     );
   }

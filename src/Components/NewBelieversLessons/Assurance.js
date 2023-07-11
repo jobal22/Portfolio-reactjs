@@ -203,11 +203,11 @@ export default class Assurance extends Component {
           </div>
           <div className="button">
             <Link className="buttonLink blA" to="/testimony">
-              <button className="buttonB">Previous Lesson</button>
+              <button className="buttonB">Previous</button>
             </Link>
-            {/* <Link className="buttonLink blA" to="/baptism">
-              <button className="buttonB">Next Lesson</button>
-            </Link> */}
+            <Link className="buttonLink blA" to="/baptism">
+              <button className="buttonB">Next</button>
+            </Link>
           </div>
         </div>
       </div>
