@@ -12,7 +12,7 @@ export default class Assurance extends Component {
           <Link className="backLink" to="/modules">
             New Believer's Module
           </Link>
-          <p>Lesson 1.4</p>
+          <p>Lesson 1.5</p>
           <h1>Baptism</h1>
         </div>
         <div className="lesSect lc">
