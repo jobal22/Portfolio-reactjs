@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const StyledBurger = styled.button`
-  position: absolute;
-  top: 2%;
-  left: 5rem;
+  position: fixed;
+  top: 15%;
+  left: 0rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  width: 2rem;
-  height: 3rem;
-  background: transparent;
+  justify-content: center;
+  width: 3.5rem;
+  height: 4rem;
+  background: rgb(224, 202, 191);
   border: none;
+  border-radius: 0 10px 10px 0;
   cursor: pointer;
   padding: 0;
   z-index: 10;
@@ -19,8 +20,10 @@ export const StyledBurger = styled.button`
   }
 
   span {
-    width: 3rem;
+    width: 2rem;
     height: 0.2rem;
+    margin: 2px 0;
+    left: 0.75rem;
     background: black;
     border-radius: 10px;
     border: 0.5px solid #2e455d;
@@ -38,7 +41,7 @@ export const StyledBurger = styled.button`
       transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
     }
   }
-  @media screen and (max-width: 767px) {
-    left: 2rem;
-  }
+  // @media screen and (max-width: 767px) {
+  //   left: 2rem;
+  // }
 `;

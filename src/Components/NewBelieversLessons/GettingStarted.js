@@ -9,10 +9,10 @@ export default class Overview extends Component {
       <div className="lessonsCage">
         <HM />
         <div className="lesTitl lc">
-          <Link className="backLink" to="/modules">
+          <Link className="backLink" to="/disciple">
             New Believer's Module
           </Link>
-          <p>Lesson 1.1</p>
+          <p>Overview</p>
           <h1>Getting Started</h1>
         </div>
         <div className="lesSect lc">
@@ -42,18 +42,18 @@ export default class Overview extends Component {
                 in bringing glory to God.{" "}
               </p>
               <p className="lsisti">
-                <span className="bb">Lessons 2-4</span> focus on the Gospel,
+                <span className="bb">Lessons 1-3</span> focus on the Gospel,
                 Believer’s Testimony, and Assurance of Salvation. These lessons
                 are designed to help you better understand the Good News about
                 Jesus, how it has personally affected your life, and how it will
                 continuously transform you each day.{" "}
               </p>
               <p className="lsisti">
-                <span className="bb">Lesson 5</span> is about Baptism which is
+                <span className="bb">Lesson 4</span> is about Baptism which is
                 one of the first steps of obedience for every new believer.{" "}
               </p>
               <p className="lsisti">
-                <span className="bb">Lessons 6-9</span> focus on the four
+                <span className="bb">Lessons 5-8</span> focus on the four
                 disciplines a believer should be walking in daily: Evangelism,
                 Bible, Prayer, and Fellowship.
               </p>

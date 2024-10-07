@@ -12,7 +12,7 @@ export default class Assurance extends Component {
           <Link className="backLink" to="/modules">
             New Believer's Module
           </Link>
-          <p>Lesson 1.4</p>
+          <p>Lesson 1.3</p>
           <h1>Assurance of Salvation</h1>
         </div>
         <div className="lesSect lc">
@@ -52,9 +52,9 @@ export default class Assurance extends Component {
               nights. While Jesus was hungry, the devil came at Him with one
               temptation, “if you are the son of God.” The devil tried this
               trick three times on Jesus. First, the devil wanted Jesus to prove
-              His sonship by turning stones into bread. However, Jesus knew only
+              His Sonship by turning stones into bread. However, Jesus knew only
               the word of God could truly fill His cravings. Second, the devil
-              wanted Jesus to prove His sonship by testing God’s faithfulness
+              wanted Jesus to prove His Sonship by testing God’s faithfulness
               through disobedience. Jesus knew not to disobey and test God.
               Finally, the devil wanted Jesus to worship him in exchange for
               worldly things. Jesus told the devil to leave for He would only
@@ -73,7 +73,7 @@ export default class Assurance extends Component {
           <div className="lesSect2 lc">
             <h2 className="lsist">Assurance of Salvation</h2>
             <p className="lsisti">
-              When we are tempted or doubting our salvation, we need to go to
+              When we are tempted or doubting our salvation, we must
               trust the word of God over our feelings. There are a few questions
               to ask:
             </p>
@@ -85,7 +85,7 @@ export default class Assurance extends Component {
             </div>
             <p className="lsisti s4s">
               As discussed in the Gospel lesson, we are saved when we first hear
-              the Gospel and then respond to the Gospel. The Gospel is the good
+              the Gospel and then respond to the Gospel with repentance and faith. The Gospel is the good
               news that Jesus died on the cross, was buried, and rose from the
               grave after three days (1 Corinthians 15:3-4). He did this so that
               our sins could be forgive and we could have a forever relationship
@@ -95,14 +95,14 @@ export default class Assurance extends Component {
               We respond to the Gospel by repenting of our sins, believing in
               Jesus as Savior, and confessing Jesus as Lord (Mark 1:15; Romans
               10:9-10). When we repent, we are turning away or withdrawing our
-              faith from what is not Jesus. We then turn and place our faith in
+              faith from what is NOT Jesus. We then turn and place our faith in
               Jesus that He died and rose on the third day. Since we are
               surrendering our lives to Him, we confess Him as Lord. He has full
               authority over us.
             </p>
             <p className="lsisti s4s">
               These are the biblical instruction for how salvation was offered
-              to us and how we are to respond to the good news. If you have done
+              to us and how we are to respond to the Good News. If you have done
               as the Bible says and placed your faith in Jesus, then you are
               saved. This is truth.{" "}
             </p>
@@ -126,7 +126,7 @@ export default class Assurance extends Component {
             <p className="lsisti s4s">
               The second part of assurance is the topic of
               salvation-maintenance. In other words, can I lose my salvation?
-              When you trusted in Jesus, He begin to work in and through you
+              When you trusted in Jesus, He began to work in and through you
               (Ephesians 2:10; 4:23-24). These works are evident to those around
               you in your local Church body. The temptation will be to think
               that these works maintain your salvation. However, these works are
@@ -134,7 +134,7 @@ export default class Assurance extends Component {
             </p>
             <p className="lsisti s4s">
               In John 10:27-30, Jesus gave very comforting words for everyone
-              who placed their faith in Him. His followers listen, know, and
+              who places their faith in Him. His followers listen, know, and
               follow Him. They have forever life and will never perish. Then, he
               says, “…no one will snatch them out of my hand. My Father, who has
               given them to me, is greater than all, and no one is able to

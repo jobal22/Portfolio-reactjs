@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { ReactDOM } from "react";
 import Gospel from "../Gospel/Gospel";
+import Degree from "../Degree/Degree";
 import profile from "../../Img/Jobal-photo1.png";
 
 export default class About extends Component {
@@ -31,66 +32,20 @@ export default class About extends Component {
             <div className="meInfo">
               <h2>Summary</h2>
               <p className="jobalDesc suminfo">
-                My name is Jonathan Baldwin (Jobal). God saved me at the end of
-                2009 by His grace through faith. I am married and have three
-                children. My ministry currently revolves around my Associate
-                Pastor of Evangelism and Discipleship position at Friendly
-                Avenue Baptist Church in Greensboro, NC. My desire is that every
-                member is walking in the daily disciplines of prayer, Bible,
-                evangelism, and fellowship.
+              Thank you for visiting my website. My name is Jobal. I am a Louisiana native, but currently reside on the east coast. This site includes three of my favorite things: Discipleship, Web Design, and Comics. The discipleship modules help guide new Christians in their walk with Christ. The Web Design link demonstrates a few of my favorite designs that I use. The Comic link displays my comic strip, Fireflies Comics. I hope that you enjoy!
               </p>
             </div>
           </div>
         </section>
-        <section className="HPF1">
-          {/* <div className="HPF_content">
-            <button
-              className="HP_button"
-              onClick={() => this.setState({ visible: !this.state.visible })}
-            >
-              Gospel
-            </button>
-            {this.state.visible && (
-              <div>
-                <Gospel />
-              </div>
-            )}
-          </div> */}
+        {/* <section className="HPF1">
         </section>
         <section className="HPF2">
-          {/* <div className="HPF_content">
-            <button
-              className="HP_button"
-              onClick={() => this.setState({ visible1: !this.state.visible1 })}
-            >
-              {this.state.visible1 ? "Gospel" : "Gospel"}
-            </button>
-            {this.state.visible1 && (
-              <div>
-                <Gospel />
-              </div>
-            )}
-          </div> */}
         </section>
         <section className="HPF3">
-          {/* <div className="HPF_content">
-            <button
-              className="HP_button"
-              onClick={() => this.setState({ visible2: !this.state.visible2 })}
-            >
-              {this.state.visible2 ? "Gospel" : "Gospel"}
-            </button>
-            {this.state.visible2 && (
-              <div>
-                <Gospel />
-              </div>
-            )}
-          </div> */}
-        </section>
-        <section className="HomePageEducation">
-          {/* <div className="HPEducation__background" /> */}
+        </section> */}
+        {/* <section className="HomePageEducation">
           <div className="HPEducation__content">
-            <h2>Education</h2>
+            <div className="AbIcon fa-solid fa-graduation-cap"></div>
             <div className="HPEC">
               <p className="jobalDesc">
                 <b>Doctor of Philosophy:</b>
@@ -125,40 +80,9 @@ export default class About extends Component {
               </p>
             </div>
           </div>
-        </section>
-        <section className="HomePageContact">
-          <div className="HPContact__background" />
-          <div className="HPContact__content">
-            <h2>Reach Out</h2>
-            <ol className="HPCLink">
-              <li>
-                <a
-                  className="HPCIcon far fa-envelope"
-                  href="mailto:jbaldwije@gmail.com"
-                  aria-hidden="true"
-                  rel="noopener noreferrer"
-                ></a>
-              </li>
-              <li>
-                <a
-                  className="HPCIcon fab fa-linkedin-in"
-                  href="https://www.linkedin.com/in/jobal/"
-                  target="_blank"
-                  aria-hidden="true"
-                  rel="noopener noreferrer"
-                ></a>
-              </li>
-              <li>
-                <a
-                  className="HPCIcon fab fa-github"
-                  href="https://github.com/jobal22"
-                  target="_blank"
-                  aria-hidden="true"
-                  rel="noopener noreferrer"
-                ></a>
-              </li>
-            </ol>
-          </div>
+        </section> */}
+        <section className="degSect">
+          <Degree/>
         </section>
       </div>
     );

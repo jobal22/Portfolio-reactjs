@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledMenu = styled.nav`
   @media screen {
+    position: fixed;
     display: flex;
     flex-direction: column;
     // justify-content: center;
@@ -12,7 +13,7 @@ export const StyledMenu = styled.nav`
     margin: 0 40px 40px 0;
     text-align: left;
     padding: 10px;
-    padding-top: 140px;
+    padding-top: 160px;
     position: absolute;
     top: 0;
     left: 0;

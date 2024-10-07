@@ -12,7 +12,7 @@ export default class Testimony extends Component {
           <Link className="backLink" to="/modules">
             New Believer's Module
           </Link>
-          <p>Lesson 1.3</p>
+          <p>Lesson 1.2</p>
           <h1>Testimony</h1>
         </div>
         <div className="lesSect lc">
@@ -45,10 +45,10 @@ export default class Testimony extends Component {
             <p className="lsisti">
               A Testimony is a way in which we can communicate/witness to God’s
               saving power specifically in our lives. Your testimony will
-              communicate the Gospel (Mt 24:14), tell your salvation story (Jn
+              communicate the Gospel (Matthew 24:14), tell your salvation story (John
               4:39), and focus on God’s greatness (Acts 4:33). God can use our
               testimony to demonstrate to other believers about our salvation
-              (Gal 1:22-24). He can also use our testimony to allow unbelievers
+              (Galatians 1:22-24). He can also use our testimony to allow unbelievers
               to hear the Gospel (Acts 26:12-29).
             </p>
           </div>
@@ -87,16 +87,16 @@ export default class Testimony extends Component {
               believers. The first three verses detail someone’s life before
               salvation. These verses provide a description, the direction, and
               the destination for unbelievers. The Bible describes a lost person
-              as dead (Eph 2:1). Physically we will all die, but the unbeliever
-              is spiritual dead, separate from God. The direction of the
+              as dead (Ephesians 2:1). Physically we will all die, but the unbeliever
+              is spiritual dead, separated from God. The direction of the
               unbeliever has to do with the authority they are under and their
               behavior. The unbeliever lives under the authority of the world,
               the devil, and the flesh and behaves within the sinful desires of
-              their own will (Eph 2:1-3). The wrath of God functions as the
-              destination for unbelievers (Eph 2:3). Paul says that those who do
+              their own will (Ephesians 2:1-3). The wrath of God functions as the
+              destination for unbelievers (Ephesians 2:3). Paul says that those who do
               not know God and do not obey the gospel of Jesus “will suffer the
               punishment of eternal destruction, away from the presence of the
-              Lord and from the glory of his might (2 Thes 1:9).{" "}
+              Lord and from the glory of his might (2 Thessalonians 1:9).{" "}
             </p>
             <div className="gO">
               <h3 className="gOT">Part II</h3>
@@ -125,7 +125,7 @@ export default class Testimony extends Component {
             </p>
             <p className="lsisti s4s">
               God is described as rich in mercy and this is because of His great
-              love (Eph 2:4). God doesn’t desire sacrifice. He actually desires
+              love (Ephesians 2:4). God doesn’t desire sacrifice. He actually desires
               mercy because He is a merciful God (Matthew 9:13). This means that
               God does not give us what we deserve. We deserve death and
               separation (Romans 3:23; 6:23). However, when Jesus came to the
@@ -141,7 +141,7 @@ export default class Testimony extends Component {
               have a forever relationship with God (Romans 4:24). Through Jesus,
               He demonstrated His grace. This means that God gave us what we did
               not deserve. We do not deserve our sins to be forever removed nor
-              a forever relationship with God. However, through Jesus dead and
+              a forever relationship with God. However, through Jesus' death and
               resurrection, God made us alive, raised, and seated with Him
               (Ephesians 2:5-6). In all of this, God is showing His kindness to
               us and the world (Ephesians 2:7).

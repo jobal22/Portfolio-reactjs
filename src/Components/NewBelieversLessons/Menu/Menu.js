@@ -11,19 +11,19 @@ const Menu = ({ open, ...props }) => {
       <p>Module 1</p>
       <h2>New Believers Module</h2>
       <a href="/gettingstarted" tabIndex={tabIndex}>
-        1.1 Getting Started
+        Getting Started
       </a>
       <a href="/gospel" tabIndex={tabIndex}>
-        1.2 The Gospel
+        1.1 The Gospel
       </a>
       <a href="/testimony" tabIndex={tabIndex}>
-        1.3 Testimony
+        1.2 Testimony
       </a>
       <a href="/assurance" tabIndex={tabIndex}>
-        1.4 Assurance of Salvation
+        1.3 Assurance of Salvation
       </a>
       <a href="/baptism" tabIndex={tabIndex}>
-        1.5 Baptism
+        1.4 Baptism
       </a>
     </StyledMenu>
   );

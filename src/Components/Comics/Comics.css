@@ -1,0 +1,172 @@
+.cHead {
+    margin-top: 50px;
+}
+
+.cImg {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.cIn {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.cIn > p {
+    font-family: "Helvetica Neue", "Verdana", "sans-serif", "New Century Schoolbook", "serif";
+    letter-spacing: 2px;
+    max-width: 700px;
+    font-size: 20px;
+}
+
+.cIn > a {
+    /* width: 200px;
+    height: 200px; */
+    width: 600px;
+    margin: 40px auto 0 auto;
+}
+
+.cIc {
+    text-align: center;
+    text-decoration: none;
+    font-size: 60px;
+    color: #1d4062;
+    margin: 50px;
+    line-height: 28px;
+    width: 26px;
+    height: 26px;
+}
+
+.cIc:hover {
+    text-decoration: none;
+}
+
+.cList {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    padding-bottom: 40px;
+}
+
+.cC {
+    padding-bottom: 20px;
+}
+
+.cC > h1{
+    /* text-align: center; */
+    font-family: 'Hind', sans-serif;
+    margin-left: 20px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.cC > img{
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .cHead {
+        margin-top: 80px;
+    }
+    
+    .cImg {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    
+    .cIn {
+        width: 300px;
+        margin: 0 auto;
+        padding: 0 0 50px 0;
+    }
+    
+    .cIn > p {
+        font-family: "Helvetica Neue", "Verdana", "sans-serif", "New Century Schoolbook", "serif";
+        letter-spacing: 2px;
+        width: 300px;
+        font-size: 15px;
+        padding: 0 20px;
+        /* margin: 0 auto; */
+    }
+    
+    .cIn > a {
+        /* width: 200px;
+        height: 200px; */
+        width: 300px;
+        margin: 40px auto 0 auto;
+    }
+    
+    .cIc {
+        text-align: center;
+        text-decoration: none;
+        font-size: 60px;
+        color: #1d4062;
+        margin: 50px;
+        line-height: 28px;
+        width: 26px;
+        height: 26px;
+    }
+    
+    .cIc:hover {
+        text-decoration: none;
+    }
+    
+    .cList {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        padding-bottom: 40px;
+    }
+    
+    .cC {
+        padding-bottom: 20px;
+    }
+    
+    .cC > h1{
+        font-family: 'Hind', sans-serif;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .cC > img{
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+    /*OLD*/
+    /* .cHead {
+        margin-top: 80px;
+    }
+    .cImg {
+        width: 400px;
+        margin-bottom: 50px;
+    }
+    .cIn {
+        margin: 0 auto;
+        padding: 0 0 50px 0;
+    }
+    .cList {
+        width: 500px;
+    }
+    .cC > h1{
+        margin-left: 20px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .cC > img{
+        width: 500px;
+    }
+    .cIn {
+        margin: 0 auto;
+        padding: 0 0 50px 0;
+    }
+    .cIn > p {
+        max-width: 400px;
+        margin: 0 auto;
+    } */
+}

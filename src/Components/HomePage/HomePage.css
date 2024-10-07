@@ -2,6 +2,7 @@
   min-width: 300px;
   margin-left: auto;
   margin-right: auto;
+  /* margin-top: 60px; */
 }
 
 h1, h2, h3 {
@@ -9,14 +10,6 @@ h1, h2, h3 {
   font-weight: bold;
   font-family: 'Martel', serif;
 }
-
-/* hr {
-  width: 60%;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid #0e2c3b;
-} */
 
 .HomePageMe, .HomePageProjects, .HomePageContact{
   display: flex;
@@ -26,14 +19,6 @@ h1, h2, h3 {
   background-color: transparent;
   /* margin-bottom: 30px; */
 }
-
-/* .fileDiv {
-    padding: 30px 0;
-    max-width: 1000px;
-    text-align: center;
-    font-size: 12px;
-    margin: 0 auto;
-} */
 
 /* ADD */
 .fileDiv {
@@ -59,21 +44,7 @@ margin: 0 auto;
 }
 
 
-/* .fileDiv:nth-child(1n) {
-  background: linear-gradient(180deg, #FAFDF3 40%, #AE6E4E 40%);
-}
-
-.fileDiv:nth-child(2n) {
-  background: linear-gradient(180deg, #FAFDF3 40%, #D0C8B6 40%);
-}
-
-.fileDiv:nth-child(3n) {
-  background: linear-gradient(180deg, #FAFDF3 40%, #AEC6CE 40%);
-} */
-
 .fileDiv2 {
-  /*   background-color: #FAFDF3; */
-  
   text-align: center;
 }
 
@@ -95,16 +66,11 @@ margin: 0 auto;
 .devoF {
   padding: 0 50px;
   text-align: left;
-  /*   background-color: #AE6E4E; */
-  /* height: 370px; */
 }
 
 .dial {
   margin: 0 auto;
   align-items: center;
-  /* background-color: #3c5474; */
-  /* border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px; */
 }
 
 .dialPhoto {
@@ -173,8 +139,232 @@ margin: 0 auto;
   height: 170px;
 }
 
+.HPTitle {
+  margin: 100px 0 70px 0;
+}
+
+.HPMimg {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.HPWelcome {
+  /* background-color: #1d4062; */
+  padding: 30px 0 100px 0;
+  color: #1d4062;
+}
+
 .HPTitle > h1 {
   font-family: 'Hind', sans-serif;
+  text-align: center;
+}
+
+.HPTitle > h2 {
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1em;
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+.HPTitleg > h2 {
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 1em;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  color: #1d4062;
+  padding-bottom: 30px;
+}
+
+
+.line {
+width: 50%;
+/* height: 7px; */
+border-bottom: 1px solid #1d4062;
+margin: 20px auto;
+/* position: absolute; */
+}
+
+.HPWI {
+  margin: 40px auto;
+
+}
+
+.HPWP {
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  /* font-size: 1.9em; */
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  width: 70%;
+}
+
+.HPAccess {
+  padding: 1px 0 50px 0;
+  background-color: #fafafa;
+}
+
+.HPGospel {
+  padding: 40px 0 80px 0;
+  /* background-color: #ccd4da; */
+}
+
+.HPG {
+  margin: 0 auto;
+  width: 700px;
+  background-color: #ccd4da;
+  padding: 20px;
+  border-radius: 90px;
+  /* box-shadow: 0 2px 24px 0 rgba(0, 0, 0, .1); */
+}
+
+.HPGsec {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 20px;
+  /* background-color: #ccd4da; */
+  margin: 20px 0;
+  /* border-radius: 90px; */
+}
+
+.HPGimg {
+  width: 100px;
+  margin-right: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+
+.HPGit {
+  /* width: 30%; */
+  color: #1d4062;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.bigger {
+  font-size: 40px;
+  color: #fafafa;
+  text-shadow: -1px -1px 0 #1d4062, 1px -1px 0 #1d4062, -1px 1px 0 #1d4062, 1px 1px 0 #1d4062;
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.ECc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* .ECcP {
+  width: 340px;
+  height: 240px;
+  margin: 0 10px;} */
+
+.EPa {
+  width: 340px;
+  height: 240px;
+  margin: 0 10px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #D18266;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 75px;
+  font-weight: 900;
+  letter-spacing: -.75rem;
+  color: #EFEEE5;
+  padding: 80px 20px;
+}
+
+.EPb {
+  width: 340px;
+  height: 240px;
+  margin: 0 10px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #F0E2D2;
+  font-family: "Kaushan Script", cursive;
+  font-size: 75px;
+  font-weight: 900;
+  /* letter-spacing: -.75rem; */
+  color: #333333;
+  padding: 65px 60px;
+}
+
+
+.EPa:hover{
+  text-decoration: none;
+  color: #1d4062;
+}
+
+.EPb:hover {
+  text-decoration: none;
+  color:#758694
+}
+
+
+.ECcProfile {
+  width: 340px;
+  height: 240px;
+  margin: 0 10px;
+}
+
+.ECcProfile:hover {
+  text-decoration: none;
+}
+
+.ECcProfile > h3{
+  text-align: center;
+  font-weight: 600;
+}
+
+/* .ep1 {
+  background-color: #D18266;
+} */
+
+.ep2 {
+  background-color: #D5E3E6;
+}
+
+.ep3 {
+  background-color: #F0E2D2;
+}
+
+/* .ep1 > h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 75px;
+  font-weight: 900;
+  letter-spacing: -.75rem;
+  color: #EFEEE5;
+  padding-top: 20%;
+} */
+
+.ep2 > h3 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 80px;
+  line-height: 0.9;
+  color: #D18266;
+  padding-top: 5%;
+}
+
+.ep3 > h3 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 75px;
+  padding-top: 15%;
 }
 
 .me_content, .HPProjects__content, .HPContact__content {
@@ -182,6 +372,7 @@ margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
   z-index: 1;
   /* margin-left: 20px;
   margin-right: 20px; */
@@ -213,41 +404,6 @@ margin: 0 auto;
   margin-bottom: -20px;
 }
 
-
-/* .HPF1 {
-  margin-top: 85px;
-  height: auto;
-  width: 100%;
-  background-color: #ced4d7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Hind', sans-serif;
-    font-style: normal;
-} */
-
-/* .HPF2 {
-  height: auto;
-  width: 100%;
-  background-color: #7D8D9C;
-
-  display: flex;
-    justify-content: center;
-    font-family: 'Hind', sans-serif;
-    font-style: normal;
-}
-
-.HPF3 {
-    height: auto;
-    width: 100%;
-    background-color: #637483;
-    margin-bottom: -20px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Hind', sans-serif;
-    font-style: normal;
-  } */
-
 .HPF_content {
   margin: 20px 0;
 }
@@ -270,13 +426,6 @@ margin: 0 auto;
     background: transparent;
 }
 
-/* .HP_button:hover {
-  background-color: #fafafa;
-  border-radius: 15px 15px 15px;
-  transition: 0.3s;
-} */
-
-
 .HPProjects__content  > p, .HPEC > p {
   margin-top: 20px;
 }
@@ -290,6 +439,11 @@ margin: 0 auto;
     /* position: absolute;
     z-index: 1; */
   margin-top:20px;
+}
+
+.degSect {
+  width: 610px;
+  margin: 200px auto 100px auto;
 }
 
 .meButton, .projectsButton {
@@ -319,7 +473,7 @@ margin: 0 auto;
 .HPMe__background {
   height: 1450px;
   width: 100%;
-  background-color: #FAFAFA;
+  /* background-color: #FAFAFA; */
   position: absolute;
   z-index: 1;
 }
@@ -372,7 +526,7 @@ margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .jobalDesc {
@@ -454,6 +608,21 @@ ol {
     width: 450px;
   }
 
+  .AbIcon {
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: #FAFAFA;
+    margin: 30px 0 10px 0;
+    line-height: 28px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .AbT {
+    text-align: center;
+  }
+
   .HPContact__content {
     color: #0e2c3b;
   }
@@ -487,13 +656,9 @@ ol {
     margin-top: 80px;
   }
 
-  /* .HomePageEducation{
-    margin-top: 80px;
-  } */
-
-  .HPProjects__content, .HPEC {
+  /* .HPProjects__content, .HPEC {
     width: 600px;
-  }
+  } */
 
   .mcbg {
     height: 330px;
@@ -511,6 +676,8 @@ ol {
   .HomePageContact {
     margin-top: 0;
     margin-bottom: 0;
+    padding-bottom: 200px;
+    background-color: #f2f3f3;
   }
 
   .HPEducation__background {
@@ -518,7 +685,7 @@ ol {
   }
 
   .HomePageContact {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
   }
     
   .HPContact__content  {
@@ -542,7 +709,11 @@ ol {
  } */
 }
  .HPContact__content {
-  margin-top: 35px;
+  margin-top: -20px;
+ }
+
+ .HPCLink {
+  margin-top: 20px;
  }
 
 .HPCIcon {
@@ -553,5 +724,194 @@ ol {
   margin: 10px;
   line-height: 48px;
   width: 46px;
+}
+
+/* NEW INSERT */
+.HPMimg {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.HPWelcome {
+  /* background-color: #1d4062; */
+  padding: 0 0 20px 0;
+  margin-top: 60px;
+  color: #1d4062;
+}
+
+.HPTitle > h1 {
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+}
+
+.HPTitle > h2 {
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1em;
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+.HPTitleg > h2 {
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 1em;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  color: #1d4062;
+  padding-bottom: 30px;
+}
+
+
+/* .line {
+width: 50%;
+border-bottom: 1px solid #fafafa;
+margin: 20px auto;
+} */
+
+.HPWI {
+  margin: 40px auto;
+}
+
+.HPWP {
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  /* font-size: 1.9em; */
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+
+.HPGospel {
+  padding: 40px 0 0 0;
+  /* background-color: #ccd4da; */
+}
+
+.HPG {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ccd4da;
+  padding: 20px;
+  border-radius: 0;
+  /* box-shadow: 0 2px 24px 0 rgba(0, 0, 0, .1); */
+}
+
+.HPGsec {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 20px;
+  /* background-color: #ccd4da; */
+  margin: 10px 0;
+  /* border-radius: 90px; */
+}
+
+.HPGimg {
+  width: 60px;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.HPGit {
+  /* width: 30%; */
+  color: #1d4062;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.bigger {
+  font-size: 25px;
+  color: #fafafa;
+  text-shadow: -1px -1px 0 #1d4062, 1px -1px 0 #1d4062, -1px 1px 0 #1d4062, 1px 1px 0 #1d4062;
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.HPAccess {
+  /* margin-top: 40px; */
+  margin-top: -10px;
+}
+
+.ECc {
+  display: block;
+}
+
+.ECcP {
+  width: 240px;
+  height: 110px;
+  margin: 80px auto 0 auto;
+}
+
+.EPa {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  background-color: #D18266;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: -.75rem;
+  color: #EFEEE5;
+  padding: 45px 20px;
+}
+
+.EPb {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  background-color: #F0E2D2;
+  font-family: "Kaushan Script", cursive;
+  font-size: 55px;
+  font-weight: 900;
+  /* letter-spacing: -.75rem; */
+  color: #333333;
+  padding: 45px 43px;
+}
+
+.ECcProfile {
+  width: 240px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+.ECcProfile:hover {
+  text-decoration: none;
+}
+
+
+/* .ep1 > h3 {
+  font-size: 55px;
+  letter-spacing: -.75rem;
+  padding-top: 20%;
+} */
+
+.ep2 > h3 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 60px;
+  line-height: 0.9;
+  color: #D18266;
+  padding-top: 5%;
+}
+
+.ep3 > h3 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 65px;
+  padding-top: 15%;
+}
+
+.degSect {
+  width: 410px;
+  margin: 10px auto 150px auto;
 }
 }

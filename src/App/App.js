@@ -16,7 +16,9 @@ import GettingStarted from "../Components/NewBelieversLessons/GettingStarted.js"
 import Testimony from "../Components/NewBelieversLessons/Testimony.js";
 import Assurance from "../Components/NewBelieversLessons/Assurance.js";
 import Baptism from "../Components/NewBelieversLessons/Baptism.js";
-import logo from "../Img/jlog.png";
+import Footer from "../Components/Footer/Footer.js";
+import Comics from "../Components/Comics/Comics.js";
+import logo from "../Img/log.png";
 import "./App.css";
 // import logo from "../Img/pwg.png";
 
@@ -62,14 +64,16 @@ export default class App extends Component {
   renderMainRoutes() {
     return (
       <>
-        {/* <Route exact path="/" component={HomePage} /> */}
-        <Route exact path="/" component={About} />
-        <Route exact path="/Modules" component={Modules} />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/About" component={About} />
+        <Route exact path="/Disciple" component={Modules} />
         <Route exact path="/Gospel" component={Gospel} />
         <Route exact path="/Gettingstarted" component={GettingStarted} />
         <Route exact path="/Testimony" component={Testimony} />
         <Route exact path="/Assurance" component={Assurance} />
         <Route exact path="/Baptism" component={Baptism} />
+        <Route exact path="/Comics" component={Comics} />
+
 
         {/* <Route exact path="/about" component={About} />
         <Route exact path="/verse" component={Verse} />
@@ -89,17 +93,18 @@ export default class App extends Component {
         <div className="grid-container">
           <header>
             <div>
-              <Link className="navLink" to={"/"}>
+              <Link className="navLink navFlex" to={"/"}>
                 <img className="logo img" src={logo} alt="Logo" />
+                <h2>Jobal</h2>
               </Link>
 
               {/* <Auth /> */}
               {/* <Link to={"/registration"}>Signup</Link> */}
-              {/* <div className="topnav">
+              <div className="topnav">
                 <div className="hamburger">
                   <HM />
                 </div>
-              </div> */}
+              </div>
             </div>
           </header>
           <Context.Provider value={contextValue}>
@@ -108,12 +113,13 @@ export default class App extends Component {
               {this.renderMainRoutes()}
             </main>
           </Context.Provider>
-          {/* <div className="footer"> */}
+          <div className="footer">
           <footer className="">
+            <Footer/>
             <p>All Rights Reserved</p>
             <p>All Scripture is from the English Standard Version</p>
           </footer>
-          {/* </div> */}
+          </div>
         </div>
       </BrowserRouter>
     );

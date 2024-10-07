@@ -8,7 +8,7 @@ export default class Modules extends Component {
       <div className="modules">
         <section className="mdHeading">
           <div className="mdHDiv">
-            <h1 className="mdHTitle">Equip Modules</h1>
+            <h1 className="mdHTitle">Disciple Modules</h1>
             <p className="mdHMotto">
               Equipping the saints for the work of the ministry
             </p>

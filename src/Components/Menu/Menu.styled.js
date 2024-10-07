@@ -5,9 +5,9 @@ export const StyledMenu = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #eeede9;
+    background: #fafafa;
     transform: ${({ open }) =>
-      open ? "translateX(-100)" : "translateX(100%)"};
+      open ? "translateY(-100)" : "translateY(-100%)"};
     height: 300px;
     text-align: center;
     padding: 10px;
@@ -16,7 +16,7 @@ export const StyledMenu = styled.nav`
     top: 0;
     right: 0;
     border-radius: 10px;
-    border: 0.5px solid #b0b8b4ff;
+    border: 0.5px solid #1d4062;
     transition: transform 0.3s ease-in-out;
     width: 250px;
 
@@ -28,7 +28,7 @@ export const StyledMenu = styled.nav`
       padding: 15px;
       font-weight: bold;
       letter-spacing: 0.5rem;
-      color: black;
+      color: #1d4062;
       text-decoration: none;
       transition: color 0.3s linear;
       :focus {

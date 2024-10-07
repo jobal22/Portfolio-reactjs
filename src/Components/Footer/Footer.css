@@ -1,0 +1,89 @@
+.FooterContact{
+    display: flex;
+    justify-content: center;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    background-color: transparent;
+  }
+
+  .Footerontact {
+    /* margin-bottom: 30px; */
+    /* height: 170px; */
+  }
+
+ol {
+    padding: 0;
+    margin: 0; 
+  }
+  
+  .FLink {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 5px;
+  }
+  
+  .FIcon {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #FAFAFA;
+    margin: 10px;
+    line-height: 28px;
+    width: 26px;
+    height: 26px;
+  }
+  
+  .FIcon:hover {
+    color: #1D4062;
+    background-color: #FAFAFA;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .FContact__content {
+      color: #FAFAFA;
+    }
+  
+    .FIcon {
+      text-decoration: none;
+      font-size: 25px;
+      line-height: 38px;
+      width: 36px;
+      height: 36px;
+    }
+  
+    .FooterContact {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 1px;
+      /* background-color: #f2f3f3; */
+    }
+      
+    .FContact__content  {
+      margin-top: 1px;
+    }
+      
+  }
+  
+  @media screen and (max-width: 767px) {
+   .FContact__content {
+    margin-top: -5px;
+    margin-bottom: 10px;
+   }
+  
+   .FLink {
+    /* margin-top: 20px; */
+   }
+  
+  .FIcon {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    /* color: #0e2c3b; */
+    margin: 1px;
+    line-height: 48px;
+    width: 36px;
+  }
+  }

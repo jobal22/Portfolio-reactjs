@@ -13,7 +13,7 @@ export default class GospelLessons extends Component {
           <Link className="backLink" to="/modules">
             New Believer's Module
           </Link>
-          <p>Lesson 1.2</p>
+          <p>Lesson 1.1</p>
           {/* <img className="icon" src={CI} alt="cross icon" /> */}
           <h1 className="lesTitle">The Gospel</h1>
         </div>
@@ -239,8 +239,8 @@ export default class GospelLessons extends Component {
               home where the parent(s) are believers and build their home on the
               word of God. However, this does not provide salvation for you. The
               Christian home can/should provide many opportunities for you to
-              hear the Gospel and trust in Jesus. But we are not saved because
-              the people around us or over us are saved.
+              hear the Gospel and trust in Jesus. Just because the people around us
+              are saved, does not mean that we are.
             </p>
             <hr></hr>
             <p className="lsisti s4s">
@@ -266,8 +266,8 @@ export default class GospelLessons extends Component {
               4. Another unfortunate confusion many have about salvation is that
               their works or good deeds saves them. The Bible thoroughly
               explains the fact that our deeds have done nothing for us in the
-              context of salvation but separate us from God. Good deeds are not
-              worth placing your faith in.
+              context of salvation but separate us from God. Your deeds are not
+              worth placing your faith in. We must place are faith in the work of Jesus Christ.
             </p>
             <hr></hr>
             <p className="lsisti">
