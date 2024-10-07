@@ -35,10 +35,8 @@ ol {
   }
   
   .FIcon:hover {
-    color: #1D4062;
-    background-color: #FAFAFA;
+    color: #D18266;
     text-decoration: none;
-    border-radius: 100%;
   }
   
   @media screen and (min-width: 768px) {
