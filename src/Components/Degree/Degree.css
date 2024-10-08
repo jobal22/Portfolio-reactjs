@@ -63,8 +63,8 @@
     .degContainer {
         display: inline-block;
         align-items: center;
-        position: relative;
-        left: 15%;
+        /* position: relative; */
+        /* left: 15%; */
         width: 300px;
     }
 
