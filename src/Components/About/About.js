@@ -37,50 +37,6 @@ export default class About extends Component {
             </div>
           </div>
         </section>
-        {/* <section className="HPF1">
-        </section>
-        <section className="HPF2">
-        </section>
-        <section className="HPF3">
-        </section> */}
-        {/* <section className="HomePageEducation">
-          <div className="HPEducation__content">
-            <div className="AbIcon fa-solid fa-graduation-cap"></div>
-            <div className="HPEC">
-              <p className="jobalDesc">
-                <b>Doctor of Philosophy:</b>
-              </p>
-              <p className="jobalDesc">
-                Concentration: Evangelism/Church Revitalization<br></br>
-                Southwestern Baptist Theological Seminary<br></br>Graduated:
-                2020
-              </p>
-              <p className="jobalDesc">
-                <b>M.Div Degree:</b>
-              </p>
-              <p className="jobalDesc">
-                Concentration: International Church Planting<br></br>
-                Southwestern Baptist Theological Seminary<br></br>Graduated:
-                2015
-              </p>
-              <p className="jobalDesc">
-                <b>Bachelor’s Degree:</b>
-              </p>
-              <p className="jobalDesc">
-                Concentration: Toxicology<br></br>College: University of
-                Louisiana in Monroe<br></br>Graduated: 2010
-              </p>
-
-              <p className="jobalDesc">
-                <b>Certificate:</b>
-              </p>
-              <p className="jobalDesc">
-                Subject: Full Stack Developer<br></br>Thinkful<br></br>
-                Graduated: 2020
-              </p>
-            </div>
-          </div>
-        </section> */}
         <section className="degSect">
           <Degree/>
         </section>

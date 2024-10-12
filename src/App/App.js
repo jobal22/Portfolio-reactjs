@@ -18,6 +18,7 @@ import Assurance from "../Components/NewBelieversLessons/Assurance.js";
 import Baptism from "../Components/NewBelieversLessons/Baptism.js";
 import Footer from "../Components/Footer/Footer.js";
 import Comics from "../Components/Comics/Comics.js";
+import WebDesign from "../Components/WebDesign/WebDesign.js";
 import logo from "../Img/log.png";
 import "./App.css";
 // import logo from "../Img/pwg.png";
@@ -73,7 +74,7 @@ export default class App extends Component {
         <Route exact path="/Assurance" component={Assurance} />
         <Route exact path="/Baptism" component={Baptism} />
         <Route exact path="/Comics" component={Comics} />
-
+        <Route exact path="/Webdesign" component={WebDesign} />
 
         {/* <Route exact path="/about" component={About} />
         <Route exact path="/verse" component={Verse} />

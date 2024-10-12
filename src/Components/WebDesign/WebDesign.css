@@ -1,0 +1,136 @@
+.WDHead {
+    margin-top: 120px;
+}
+
+.WDHead > h1 {
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+    color: #333333;
+    font-size: 60px;
+    line-height: 0.9;
+}
+
+.WDLogo {
+    /* margin-top: 50px; */
+    padding: 100px 0 50px 0;
+}
+
+.WDPage, .WDPage > h2 {
+    text-align: center;
+}
+
+.WDPage > h2 {
+    margin-bottom: 50px;
+    font-family: "EB Garamond", serif;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.WDLI {
+    width: 200px;
+    transition:transform 0.25s ease;
+}
+
+.WDLI:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+
+.WDPlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.WDPLbd {
+    text-align: center;
+    padding: 70px 0;
+    border-radius: 20px;
+    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+    width: 180px;
+    height: 180px;
+    margin: 0 10px;
+}
+
+.L1 {
+    background-color: #405d72;
+}
+
+.L2 {
+    background-color: #F7E7DC;
+}
+
+.L3 {
+    background-color: #FFF8F3;
+
+}
+
+.L4 {
+    background-color: #758694;
+}
+
+.WDPLbd > a {
+    width: 100px;
+    height: 100px;
+    font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: 0.02em;
+    /* padding-bottom: 20px; */
+    /* color: #ced4d7; */
+    /* margin: 0 10px; */
+}
+
+.a1 {
+    color: #ced4d7;
+}
+
+.a2 {
+    color: #4d5a66;
+}
+
+.a3 {
+    color: #4d5a66;
+}
+
+.a4 {
+    color: #ced4d7;
+}
+
+.WDPLbd > a:hover {
+    text-decoration: none;
+    color: #D18266;
+}
+
+
+@media screen and (max-width: 767px) {
+    .WDLogo {
+        margin-top: 0;
+    }
+    
+    .WDLI {
+        width: 200px;
+        margin: 10px 0
+    }
+
+    .WDPage > h2 {
+        font-size: 50px;
+    }
+
+    .WDPlinks {
+        display: inline-block;
+        align-items: center;
+    }
+
+    .WDPLbd {
+        margin: 20px 0;
+    }
+    
+}
