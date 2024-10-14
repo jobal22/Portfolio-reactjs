@@ -14,6 +14,9 @@ const Menu = ({ open, ...props }) => {
       <a href="/disciple" tabIndex={tabIndex}>
         Disciple
       </a>
+      <a href="/webdesign" tabIndex={tabIndex}>
+        Web Design
+      </a>
       <a href="/comics" tabIndex={tabIndex}>
         Comics
       </a>

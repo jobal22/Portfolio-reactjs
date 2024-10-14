@@ -23,20 +23,20 @@ class WebDesign extends Component {
                     {/* <img className="WDLI" src={FL} alt="Fireflies Comics Logo" /> */}
                     </div>
                 </section>
-                <section className='WDPage'>
+                <section className='WDPage Designs'>
                     <h2>Site Designs</h2>
                     <div className='WDPlinks'>
                         <div className='WDPLbd L1'>
-                            <a className="a1" href="https://church-site.vercel.app/">Religion</a>
+                            <a className="a1" href="https://church-site.vercel.app/" target="_blank">Religion</a>
                         </div>
                         <div className='WDPLbd L2'>
-                            <a className="a2" href="https://sparrows-coffee.vercel.app/">Coffee</a>
+                            <a className="a2" href="https://sparrows-coffee.vercel.app/" target="_blank">Coffee</a>
                         </div>
                         <div className='WDPLbd L3'>
-                            <a className="a3" href="https://loan-officer-template.vercel.app/">Work</a>
+                            <a className="a3" href="https://loan-officer-template.vercel.app/" target="_blank">Work</a>
                         </div>
                         <div className='WDPLbd L4'>
-                            <a className="a4" href="https://www.1t3life.org/">Training</a>
+                            <a className="a4" href="https://www.1t3life.org/" target="_blank">Training</a>
                         </div>
                     </div>
                 </section>

@@ -44,21 +44,26 @@ export default class HomePage extends Component {
             {/* <h1 className="HPTT">Quick Access</h1> */}
           </div>
           <div className="ECc">
-            <div className="ECcP">
-            <a className="EPa" href="/disciple">
-            DISCIPLE
-            </a>
+            <div className="ECcP Ec1">
+              <a className="EPa" href="/disciple">
+              DISCIPLE
+              </a>
             </div>
-            <div className="ECcProfile ep2">
+            <div className="ECcP Ec2">
+              <a className="EPb" href="/webdesign">
+              Web<br/>Design
+              </a>
+            </div>
+            {/* <div className="ECcProfile ep2">
             <h3 className="ECcPTitle">Web Design</h3>
-            </div>
+            </div> */}
             {/* <div className="ECcProfile ep3">
             <h3 className="ECcPTitle">Comics</h3>
             </div> */}
-            <div className="ECcP">
-            <a className="EPb" href="/comics">
-            Comics
-            </a>
+            <div className="ECcP Ec3">
+              <a className="EPc" href="/comics">
+              Comics
+              </a>
             </div>
           </div>
         </section>

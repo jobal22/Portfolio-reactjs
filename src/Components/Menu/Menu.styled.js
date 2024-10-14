@@ -8,7 +8,7 @@ export const StyledMenu = styled.nav`
     background: #fafafa;
     transform: ${({ open }) =>
       open ? "translateY(-100)" : "translateY(-100%)"};
-    height: 300px;
+    height: 400px;
     text-align: center;
     padding: 10px;
     padding-top: 45px;
@@ -18,7 +18,7 @@ export const StyledMenu = styled.nav`
     border-radius: 10px;
     border: 0.5px solid #1d4062;
     transition: transform 0.3s ease-in-out;
-    width: 250px;
+    width: 300px;
 
     a {
       font-family: Times, serif;
