@@ -11,7 +11,7 @@ const Menu = ({ open, ...props }) => {
       <p>Module 1</p>
       <h2>New Believers Module</h2>
       <a href="/gettingstarted" tabIndex={tabIndex}>
-        Getting Started
+        1.0 Getting Started
       </a>
       <a href="/gospel" tabIndex={tabIndex}>
         1.1 The Gospel

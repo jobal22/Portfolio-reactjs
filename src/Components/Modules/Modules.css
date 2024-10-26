@@ -73,27 +73,23 @@
 }
 
 .mdList {
-  width: 80%;
     margin-left: auto;
     box-sizing: border-box;
     margin-right: auto;
     display: block;
-    padding: 24px 24px;
+    padding: 24px 2px;
     max-width: 1024px;
 }
 
 .mdLCage {
-     margin-left: auto;
+    margin-left: auto;
     box-sizing: border-box;
     margin-right: auto;
     display: block;
     padding: 24px 16px;
     max-width: 1024px;
     max-height: 150px;
-    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 24px 0px; */
     border-bottom: 1px solid rgb(226, 225, 230);
-    /* border-radius: 8px; */
-    /* background-color: red; */
     margin-top: -25px;
     margin-bottom: -25px;
 }
@@ -106,16 +102,98 @@
   color: #2e455d;
 }
 
-.mdLCage:hover {
+/* .mdLCage:hover {
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+  padding: 24px 16px;
+  max-width: 1024px;
+  max-height: 150px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 24px 0px;
+  border: 1px solid rgb(226, 225, 230);
+  border-radius: 8px;
+} */
+
+/*Collapsible*/
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 7px;
+  /* box-shadow: 1px 1px 4px rgba(0,0,0,0.2); */
+}
+
+.ctCage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ctCage > i {
+  margin-top: 10px;
+}
+
+
+/* BEST - JS calculated height */
+.list-group-item {
+  .card-title {
+    cursor: pointer;
+  }
+  .card-collapse {
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+  }
+
+  h2 {
+    margin-top: 5px !important;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  i {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .list-group-item {
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .mdList {
     margin-left: auto;
     box-sizing: border-box;
     margin-right: auto;
     display: block;
-    padding: 24px 16px;
+    padding: 24px 1px;
     max-width: 1024px;
-    max-height: 150px;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 24px 0px;
-    border: 1px solid rgb(226, 225, 230);
-    border-radius: 8px;
 }
+
+  .mdLCage {
+    margin-left: auto;
+   box-sizing: border-box;
+   margin-right: auto;
+   display: block;
+   padding: 24px 1px;
+   max-width: 1024px;
+   max-height: 150px;
+   border-bottom: 1px solid rgb(226, 225, 230);
+   margin-top: -25px;
+   margin-bottom: -25px;
+}
+
+  .mdLCage > h5 {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2e455d;
+  }
+}
+
